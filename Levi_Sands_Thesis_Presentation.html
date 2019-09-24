@@ -1,21 +1,18 @@
 ﻿<!doctype HTML>
 <html lang="en">
-
 	<head>
 		<meta charset="utf-8">
 
 		<title>Childhood Toxic Stress and Allostatic Load</title>
-
-		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
 		<meta name="author" content="Levi Sands">
+		<meta name="description" content="Levi Sands' Thesis Presentation">
 
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/White.css" id="theme">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -49,16 +46,10 @@
                     <section>
                         <h3>Introduction</h3>
                         <ul>
-                            <li>Contact Information</li>
-                        </ul>
-                    </section>
-                    <section>
-                        <ul>
-                            <li>Office Hours</li>
-                            <ul>
-                                <li>SSH W24 (follow the signs to the Beta Waiting Room right next to the blue seats)</li>
-                                <li>Thursday 12:30-3:30 or by appointment</li>
-                            </ul>
+                            <li>The number of chronic conditions rise as we live longer (Lutz, Sanderson, and Scherbov 2008; Olshansky and Ault 1986)</li>
+                            <li>If we can better understand what causes chronic health conditions we can improve standard of living</li>
+                            <li>Stress has been linked to many chronic health problems (McEwen and McEwen 2017)</li>
+                            <li>Here I analyze the three main pathways through which stress is thought to impact adult health</li>
                         </ul>
                     </section>
                 </section>
@@ -66,18 +57,53 @@
                 <section>
                     <section>
                         <h3>Biological Processes of Stress</h3>
+                        <ul>
+                            <li>Homeostasis and allostasis (Betts et al. 2014; McEwen and Gianaros 2011)</li>
+                            <li>HPA axis and stress response (Betts et al. 2014; McEwen 1998; McEwen and McEwen 2017)</li>
+                            <li>Evolutionary history of violence (Knauft et al. 1991)</li>
+                            <li>Environmental conditions as a prediction of future environments (Rickard and Lummaa 2007)</li>
+                            <li>Any stressor sets off the stress response</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Stress Effects</h3>
+                        <ol>
+                            <li>Short-term (Acute) effects</li>
+                            <ul>
+                                <li>Hypersensitive immune system</li>
+                                <li>Release of body's energy reserves</li>
+                                <li>Increased blood pressure</li>
+                                <li>Increased inflammation markers</li>
+                            </ul>
+                            <li>Long-term (Chronic) effects</li>
+                            <ul>
+                                <li>Depressed immune system</li>
+                                <li>Insulin resistance</li>
+                                <li>Increased risk of heart disease</li>
+                                <li>Increased inflammation markers</li>
+                            </ul>
+                        </ol>
                     </section>
                 </section>
 
                 <section>
                     <section>
                         <h3>The Effects of Stress on Health</h3>
+                        <ul>
+                            <li>Allostatic Load: the biological load, or cost, that is borne from the overuse of allostatic systems activated by chronic or toxic stress (McEwen and Stellar 1993)</li>
+                            <li>Increased allostatic load has been linked with higher risk of mortality, decreased physical functioning, and decreases in cognitive functioning (Seeman et al. 2001)</li>
+                        </ul>
                     </section>
                 </section>
 
                 <section>
                     <section>
                         <h3>Social and Environmental Stressors</h3>
+                        <ul>
+                            <li>We are surrounded by the social environment that is full of stressors</li>
+                            <li>Individuals are exposed to different sources and numbers of stressors (Thoits 2010)</li>
+                            <li>Social stressors impact individuals differently depending on their resources (Thoits 2010)</li>
+                        </ul>
                     </section>
                 </section>
 
@@ -90,69 +116,119 @@
                 <section>
                     <section>
                         <h3>Predictive Adaptive Response Perspective</h3>
+                        <ul>
+                            <li>Biological embedding during a critical or sensitive period (Hertzman and Boyce 2010)</li>
+                            <li>Works through epigenetics and tissue remodeling (Landecker and Panofsky 2013; McEwen 2000)</li>
+                            <li>Predicts that childhood stress will be more impactful on adult health than other sources</li>
+                        </ul>
                     </section>
                 </section>
 
                 <section>
                     <section>
                         <h3>Cumulative Stress Perspective</h3>
+                        <ul>
+                            <li>Early disadvantages become more stressors as time goes on (Pearlin et al. 2005)</li>
+                            <li>Works through stress proliferation and unbroken sources of stressors that break down the body (Ferraro 2011; Pearlin et al. 2005)</li>
+                            <li>Predicts that adult stress will be more impactful on adult health than other sources</li>
+                        </ul>
                     </section>
                 </section>
 
                 <section>
                     <section>
                         <h3>Stress Buffering Perspective</h3>
+                        <ul>
+                            <li>Positive factors and perspectives can buffer toxic stress (Thoits 2006, 2011)</li>
+                            <li>Resources can be employed to mitigate the sources of stress (Thoits 2006, 2011)</li>
+                            <li>Not all individuals will perceive possible stressors as a threat and will thus not activate the stress response </li>
+                            <li>Predicts that positive perspectives and resources will lesson the impact of stress on health (Pearlin and Bierman 2013; Thoits 2006, 2011)</li>
+                        </ul>
                     </section>
                 </section>
 
                 <section>
                     <section>
                         <h3>Methods</h3>
+                        <ul>
+                            <li>Multiple linear regression using ordinary least squares was used to determine associations using the R programming language (R Core Team 2019)</li>
+                            <li>Hypothesis 1: Adults who experienced child abuse and neglect will exhibit higher levels of allostatic load regardless of later life stressors or favorable life circumstances. This is due to the impact of the toxic stress on the body during the “critical period” previously discussed.</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <ul>
+                            <li>Hypothesis 2: The cumulative impact of stressors that accumulate across the life course will have more of an impact upon adult allostatic load than either childhood or adult toxic stress alone.</li>
+                            <li>Hypothesis 3: Positive life-course factors in adulthood will lessen the impact of childhood toxic stress on allostatic load. Positive life experiences are known to mitigate the adverse impact of toxic stress on health.</li>
+                        </ul>
                     </section>
                     <section>
                         <h3>Sample</h3>
+                        <ul>
+                            <li>Taken from Survey of Midlife Development in the United States (MIDUS)</li>
+                            <li>902 participants after removing 130 for missing biomarker data and another 22 for missing various other variables used here</li>
+                            <li>Retrospective data taken from waves 1, 2 and biomarker visit as well as prospective questions from each wave</li>
+                        </ul>
                     </section>
                     <section>
                         <h3>Variables</h3>
+                        <ul>
+                            <li>Dependent Variable: allostatic load</li>
+                            <li>Main independent variable: childhood abuse and neglect</li>
+                            <li>Other independent variables: adult negative events, financial situation, perceived stress, family and friend support</li>
+                            <li>Demographic controls: race (white reference), female, age, respondent education, health insurance</li>
+                            <li>Lifestyle controls: smoked, alcohol consumed, exercise, fast food (in a week)</li>
+                        </ul>
                     </section>
                     <section>
-                        <img src="pics\table1.jpg" style="width:60%">
+                        <img src="pics\Thesis_Defense\Table1.jpg" style="width:60%">
                     </section>
                     <section>
-                        <img src="pics\table2.jpg" style="width:50%">
+                        <img src="pics\Thesis_Defense\Table2.jpg" style="width:50%">
                     </section>
                     <section>
-                        <img src="pics\table3.jpg" style="width:55%">
+                        <img src="pics\Thesis_Defense\Table3.jpg" style="width:55%">
                     </section>
                     <section>
-                        <img src="pics\table4.jpg" style="width:55%">
+                        <img src="pics\Thesis_Defense\Table4.jpg" style="width:55%">
                     </section>
                     <section>
-                        <img src="pics\table5.jpg" style="width:60%">
+                        <img src="pics\Thesis_Defense\Table5.jpg" style="width:60%">
                     </section>
                     <section>
-                        <img src="pics\table6.jpg" style="width:60%">
+                        <img src="pics\Thesis_Defense\Table6.jpg" style="width:60%">
                     </section>
                     <section>
-                        <img src="pics\table7.jpg" style="width:60%">
+                        <img src="pics\Thesis_Defense\Table7.jpg" style="width:60%">
                     </section>
                     <section>
-                        <img src="pics\table8.jpg" style="width:60%">
-                    </section>
-                    <section>
-                        <img src="pics\table9.jpg" style="width:60%">
+                        <img src="pics\Thesis_Defense\Table8.jpg" style="width:60%">
                     </section>
                 </section>
-
+                
                 <section>
                     <section>
                         <h3>Results</h3>
+                        <ul>
+                            <li>Childhood abuse and neglect was always significantly associated with increased allostatic load</li>
+                            <li>both adult negative events and financial situation were always significantly associated with higher allostatic load</li>
+                            <li>Family and friend support was found to be significantly associated with increased allostatic load</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <img src="pics\Thesis_Defense\Table9.jpg" style="width:60%">
                     </section>
                 </section>
 
                 <section>
                     <section>
                         <h3>Limitations</h3>
+                        <ul>
+                            <li>Retrospective measures of many variables</li>
+                            <li>Lack of longitudinal biomarker data</li>
+                            <li>Lack of genetic data</li>
+                            <li>Limited cumulative stress and stress buffering examination</li>
+                            <li>No examination of mental health factors</li>
+                        </ul>
                     </section>
 
                     <section>
@@ -201,16 +277,13 @@
 		<script src="js/reveal.js"></script>
 
 		<script>
-
 			// More info https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
 				controls: true,
 				progress: false,
 				history: true,
 				center: false,
-
 				transition: 'slide', // none/fade/slide/convex/concave/zoom
-
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
 					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
@@ -221,7 +294,6 @@
 					{ src: 'plugin/notes/notes.js', async: true }
 				]
 			});
-
 		</script>
 
 	</body>
