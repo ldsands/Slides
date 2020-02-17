@@ -5,7 +5,6 @@ Slides located at https://ldsands.github.io/Slides/
 If you want to launch one automatically by using the above site then put all of the html data into the index.html
 
 Currently the index.html file is Levi_Sands_Thesis_Presentation.html
-
 ## Groups of Slides
 
 [Math Example](https://ldsands.github.io/Slides/test/examples/math.html)
