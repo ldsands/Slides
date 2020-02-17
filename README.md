@@ -12,7 +12,7 @@ Currently the index.html file is Levi_Sands_Thesis_Presentation.html
 
 ### Intro_SOC_1010
 
-- [Week 002](https://ldsands.github.io/Slides/main_slides/intro_soc_1010/week_002_Julie.html) - [If using locally](main_slides/intro_soc_1010/week_002_Julie.html)
+- [Week 002 Introduction (Julie's)](https://ldsands.github.io/Slides/main_slides/intro_soc_1010/week_002_Julie.html) - [If using locally](main_slides/intro_soc_1010/week_002_Julie.html)
 - [Week 002 Introduction](https://ldsands.github.io/Slides/main_slides/intro_soc_1010/week_002.html) - [If using locally](main_slides/intro_soc_1010/week_002.html)
 - [Week 003 Major Social Theories](https://ldsands.github.io/Slides/main_slides/intro_soc_1010/week_003.html) - [If using locally](main_slides/intro_soc_1010/week_003.html)
 - [Week 004 Culture](https://ldsands.github.io/Slides/main_slides/intro_soc_1010/week_004.html) - [If using locally](main_slides/intro_soc_1010/week_004.html)
