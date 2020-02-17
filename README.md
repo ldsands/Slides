@@ -8,4 +8,4 @@ Currently the index.html file is Levi_Sands_Thesis_Presentation.html
 
 ### Intro_SOC_1010
 
-[Week_3.html](main_slides/Intro_SOC_1010/Week_3.html)
+[Week_3.html](https://ldsands.github.io/Slides/main_slides/Intro_SOC_1010/Week_3.html)
