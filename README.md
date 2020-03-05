@@ -35,3 +35,47 @@ Currently the index.html file is Levi_Sands_Thesis_Presentation.html
 ### SOC 6550 Environment and Society
 
 - 2020 [Lim and Tsutsui 2012](https://ldsands.github.io/Slides/main_slides/SOC_6550_Environment_and_Society/Lim_and_Tsutsui_2012_Levi_Sands.html) - [If using locally](main_slides/SOC_6550_Environment_and_Society/Lim_and_Tsutsui_2012_Levi_Sands.html)
+
+### Poli Soc Comp Topics
+
+#### 01 Theories of Power and the State
+
+- [Theories of Power and the State](https://ldsands.github.io/Slides/main_slides/poli_soc_comp_topics/01_theories_of_power_and_the_state.html) - [If using locally](/main_slides/poli_soc_comp_topics/01_theories_of_power_and_the_state.html)
+
+<!--
+#### 02 Political Culture
+
+- [Political Culture](https://ldsands.github.io/Slides/main_slides/poli_soc_comp_topics/02_political_culture.html) - [If using locally](/main_slides/poli_soc_comp_topics/02_political_culture.html)
+
+#### 03 Political Economy
+
+- [Political Economy](https://ldsands.github.io/Slides/main_slides/poli_soc_comp_topics/03_political_economy.html) - [If using locally](/main_slides/poli_soc_comp_topics/03_political_economy.html)
+
+#### 04 Social Relations (Race, Immigration, Family, etc.) and Policymaking
+
+- [Social Relations (Race, Immigration, Family, etc.) and Policymaking](https://ldsands.github.io/Slides/main_slides/poli_soc_comp_topics/04_social_relations_race_immigration_family_etc_and_policymaking.html) - [If using locally](/main_slides/poli_soc_comp_topics/04_social_relations_race_immigration_family_etc_and_policymaking.html)
+
+#### 05 Political Participation and Voting
+
+- [Political Participation and Voting](https://ldsands.github.io/Slides/main_slides/poli_soc_comp_topics/05_political_participation_and_voting.html) - [If using locally](/main_slides/poli_soc_comp_topics/05_political_participation_and_voting.html)
+
+#### 06 Violence and Terrorism
+
+- [Violence and Terrorism](https://ldsands.github.io/Slides/main_slides/poli_soc_comp_topics/06_violence_and_terrorism.html) - [If using locally](/main_slides/poli_soc_comp_topics/06_violence_and_terrorism.html)
+
+#### 07 Localism, Globalization, and International Governance
+
+- [Localism, Globalization, and International Governance](https://ldsands.github.io/Slides/main_slides/poli_soc_comp_topics/07_localism_globalization_and_international_governance.html) - [If using locally](/main_slides/poli_soc_comp_topics/07_localism_globalization_and_international_governance.html)
+
+#### 08 Social Movements and Collective Behavior
+
+- [Social Movements and Collective Behavior](https://ldsands.github.io/Slides/main_slides/poli_soc_comp_topics/08_social_movements_and_collective_behavior.html) - [If using locally](/main_slides/poli_soc_comp_topics/08_social_movements_and_collective_behavior.html)
+
+#### 09 Authoritarianism and Democratization
+
+- [Authoritarianism and Democratization](https://ldsands.github.io/Slides/main_slides/poli_soc_comp_topics/09_authoritarianism_and_democratization.html) - [If using locally](/main_slides/poli_soc_comp_topics/09_authoritarianism_and_democratization.html)
+
+#### 10 Social Capital and Civil Society
+
+- [Social Capital and Civil Society](https://ldsands.github.io/Slides/main_slides/poli_soc_comp_topics/10_social_capital_and_civil_society.html) - [If using locally](/main_slides/poli_soc_comp_topics/10_social_capital_and_civil_society.html)
+-->
