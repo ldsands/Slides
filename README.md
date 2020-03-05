@@ -35,7 +35,7 @@ Currently the index.html file is Levi_Sands_Thesis_Presentation.html
 ### SOC 6550 Environment and Society
 
 - 2020 [Lim and Tsutsui 2012](https://ldsands.github.io/Slides/main_slides/SOC_6550_Environment_and_Society/Lim_and_Tsutsui_2012_Levi_Sands.html) - [If using locally](main_slides/SOC_6550_Environment_and_Society/Lim_and_Tsutsui_2012_Levi_Sands.html)
-- 2020 [No fracking way](https://ldsands.github.io/Slides/main_slides/SOC_6550_Environment_and_Society/Week_7_Vasi_et_al_2015_Levi_Sands.html) - [If using locally](main_slides/SOC_6550_Environment_and_Society/Week_7_Vasi_et_al_2015_Levi_Sands.html)
+- 2020 [Vasi et al. 2015](https://ldsands.github.io/Slides/main_slides/SOC_6550_Environment_and_Society/Week_7_Vasi_et_al_2015_Levi_Sands.html) - [If using locally](main_slides/SOC_6550_Environment_and_Society/Week_7_Vasi_et_al_2015_Levi_Sands.html)
 
 ### Poli Soc Comp Topics
 
