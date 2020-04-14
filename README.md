@@ -1,10 +1,12 @@
 # Reveal.js_Slides_Sands
 
-Slides located at https://ldsands.github.io/Slides/
+- Slides located at https://ldsands.github.io/Slides/
+- If you want to launch one automatically by using the above site then put all of the html data into the index.html
+    - Currently the index.html file is blank
+- Configuration options
+    - More options are contained on [this page](https://github.com/hakimel/reveal.js)
+    - One important configuration option to be aware of is if you want to print slide fragments with each fragment action on its own slide or without any of the fragment actions impacting how the pdf printout. To do this the `js/reveal.js` file must be modified. The `pdfSeparateFragments:` must be set to `false` rather than `true` which is the default.
 
-If you want to launch one automatically by using the above site then put all of the html data into the index.html
-
-Currently the index.html file is Levi_Sands_Thesis_Presentation.html
 ## Groups of Slides
 
 [Math Example](https://ldsands.github.io/Slides/test/examples/math.html)
