@@ -36,8 +36,10 @@
 
 ### SOC 6550 Environment and Society
 
-- 2020 [Lim and Tsutsui 2012](https://ldsands.github.io/Slides/main_slides/SOC_6550_Environment_and_Society/Lim_and_Tsutsui_2012_Levi_Sands.html) - [If using locally](main_slides/SOC_6550_Environment_and_Society/Lim_and_Tsutsui_2012_Levi_Sands.html) - [pdf Version Link](https://ldsands.github.io/Slides/main_slides/SOC_6550_Environment_and_Society/Lim_and_Tsutsui_2012_Levi_Sands.html?print-pdf)
-- 2020 [Vasi et al. 2015](https://ldsands.github.io/Slides/main_slides/SOC_6550_Environment_and_Society/Week_7_Vasi_et_al_2015_Levi_Sands.html) - [If using locally](main_slides/SOC_6550_Environment_and_Society/Week_7_Vasi_et_al_2015_Levi_Sands.html) - [pdf Version Link](https://ldsands.github.io/Slides/main_slides/SOC_6550_Environment_and_Society/Week_7_Vasi_et_al_2015_Levi_Sands.html?print-pdf)
+- 2020 [Week 5 Lim and Tsutsui 2012](https://ldsands.github.io/Slides/main_slides/SOC_6550_Environment_and_Society/Lim_and_Tsutsui_2012_Levi_Sands.html) - [If using locally](main_slides/SOC_6550_Environment_and_Society/Lim_and_Tsutsui_2012_Levi_Sands.html) - [pdf Version Link](https://ldsands.github.io/Slides/main_slides/SOC_6550_Environment_and_Society/Lim_and_Tsutsui_2012_Levi_Sands.html?print-pdf)
+- 2020 [Week 7 Vasi et al. 2015](https://ldsands.github.io/Slides/main_slides/SOC_6550_Environment_and_Society/Week_7_Vasi_et_al_2015_Levi_Sands.html) - [If using locally](main_slides/SOC_6550_Environment_and_Society/Week_7_Vasi_et_al_2015_Levi_Sands.html) - [pdf Version Link](https://ldsands.github.io/Slides/main_slides/SOC_6550_Environment_and_Society/Week_7_Vasi_et_al_2015_Levi_Sands.html?print-pdf)
+- 2020 [Week 11 Lee and Loundsbury 2015](https://ldsands.github.io/Slides/main_slides/SOC_6550_Environment_and_Society/Week_11_Lee_and_Lounsbury_2015_Levi_Sands.html) - [If using locally](main_slides/SOC_6550_Environment_and_Society/Week_11_Lee_and_Lounsbury_2015_Levi_Sands.html) - [pdf Version Link](https://ldsands.github.io/Slides/main_slides/SOC_6550_Environment_and_Society/Week_11_Lee_and_Lounsbury_2015_Levi_Sands.html?print-pdf)
+- 2020 [Week 11 Etzion and Ferraro 2010](https://ldsands.github.io/Slides/main_slides/SOC_6550_Environment_and_Society/Week_11_Etzion_and_Ferraro_2010_Levi_Sands.html) - [If using locally](main_slides/SOC_6550_Environment_and_Society/Week_11_Etzion_and_Ferraro_2010_Levi_Sands.html) - [pdf Version Link](https://ldsands.github.io/Slides/main_slides/SOC_6550_Environment_and_Society/Week_11_Etzion_and_Ferraro_2010_Levi_Sands.html?print-pdf)
 
 ### Poli Soc Comp Topics
 
