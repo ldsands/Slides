@@ -1,74 +1,28 @@
-# Reveal.js_Slides_Sands
+<p align="center">
+  <a href="https://revealjs.com">
+  <img src="https://hakim-static.s3.amazonaws.com/reveal-js/logo/v1/reveal-black-text.svg" alt="reveal.js" width="450">
+  </a>
+  <br><br>
+  <a href="https://github.com/hakimel/reveal.js/actions"><img src="https://github.com/hakimel/reveal.js/workflows/tests/badge.svg"></a>
+  <a href="https://slides.com/"><img src="https://s3.amazonaws.com/static.slid.es/images/slides-github-banner-320x40.png?1" alt="Slides" width="160" height="20"></a>
+</p>
 
-- Slides located at [https://ldsands.github.io/Slides/](https://ldsands.github.io/Slides/)
-- If you want to launch one automatically by using the above site then put all of the html data into the index.html
-    - Currently the index.html file is blank
-- Configuration options
-    - More options are contained on [this page](https://github.com/hakimel/reveal.js)
-    - One important configuration option to be aware of is if you want to print slide fragments with each fragment action on its own slide or without any of the fragment actions impacting how the pdf printout. To do this the `js/reveal.js` file must be modified. The `pdfSeparateFragments:` must be set to `false` rather than `true` which is the default.
+reveal.js is an open source HTML presentation framework. It enables anyone with a web browser to create fully featured and beautiful presentations for free. [Check out the live demo](https://revealjs.com/).
 
-## SOC 1010
+The framework comes with a broad range of features including [nested slides](https://revealjs.com/vertical-slides/), [Markdown support](https://revealjs.com/markdown/), [Auto-Animate](https://revealjs.com/auto-animate/), [PDF export](https://revealjs.com/pdf-export/), [speaker notes](https://revealjs.com/speaker-view/), [LaTeX support](https://revealjs.com/math/), [syntax highlighted code](https://revealjs.com/code/) and much more.
 
-- [Master Link List](https://github.com/ldsands/Slides/blob/master/SOC1010.md)
+<h1>
+  <a href="https://revealjs.com/installation" style="font-size: 3em;">Get Started</a>
+</h1>
 
-## Groups of Slides
+## Documentation
+The full reveal.js documentation is available at [revealjs.com](https://revealjs.com).
 
-[Math Example](https://ldsands.github.io/Slides/test/examples/math.html)
+## Online Editor
+Want to create your presentation using a visual editor? Try the official reveal.js presentation platform for free at [Slides.com](https://slides.com). It's made by the same people behind reveal.js.
 
-### One Off Presentations
+## License
 
-- 2016 [SOC 5160 Research Presentation](https://ldsands.github.io/Slides/main_slides/one_offs/2016_12_Levi_Sands_5160_Res_Pres.html) - [If using locally](main_slides/one_offs/2016_12_Levi_Sands_5160_Res_Pres.html) - [pdf Version link](https://ldsands.github.io/Slides/main_slides/one_offs/2016_12_Levi_Sands_5160_Res_Pres.html?print-pdf)
-- 2019 [Thesis Defense](https://ldsands.github.io/Slides/main_slides/one_offs/Levi_Sands_Thesis_Presentation.html) - [If using locally](main_slides/one_offs/Levi_Sands_Thesis_Presentation.html) - [pdf Version link](https://ldsands.github.io/Slides/main_slides/one_offs/Levi_Sands_Thesis_Presentation.html?print-pdf)
-- 2020 [EPLS 6209 Research Presentation](https://ldsands.github.io/Slides/main_slides/one_offs/2020_05_Levi_Sands_EPLS_6209_Presentation.html) - [If using locally](main_slides/one_offs/2020_05_Levi_Sands_EPLS_6209_Presentation.html) - [pdf Version link](https://ldsands.github.io/Slides/main_slides/one_offs/2020_05_Levi_Sands_EPLS_6209_Presentation.html?print-pdf)
-- 2020 [Getting Started with Reference Management Using Zotero](https://ldsands.github.io/Slides/main_slides/one_offs/2020_09_Levi_Sands_Ref_Man_Zotero.html) - [If using locally](main_slides/one_offs/2020_09_Levi_Sands_Ref_Man_Zotero.html) - [pdf Version link](https://ldsands.github.io/Slides/main_slides/one_offs/2020_09_Levi_Sands_Ref_Man_Zotero.html?print-pdf)
+MIT licensed
 
-### SOC 6550 Environment and Society
-
-- 2020 [Week 05 Lim and Tsutsui 2012](https://ldsands.github.io/Slides/main_slides/2020_01_SOC_6550_Environment_and_Society/WWeek_05_Lim_and_Tsutsui_2012_Levi_Sands.html) - [If using locally](main_slides/2020_01_SOC_6550_Environment_and_Society/WWeek_05_Lim_and_Tsutsui_2012_Levi_Sands.html) - [pdf Version link](https://ldsands.github.io/Slides/main_slides/2020_01_SOC_6550_Environment_and_Society/WWeek_05_Lim_and_Tsutsui_2012_Levi_Sands.html?print-pdf)
-- 2020 [Week 07 Vasi et al. 2015](https://ldsands.github.io/Slides/main_slides/2020_01_SOC_6550_Environment_and_Society/Week_07_Vasi_et_al_2015_Levi_Sands.html) - [If using locally](main_slides/2020_01_SOC_6550_Environment_and_Society/Week_07_Vasi_et_al_2015_Levi_Sands.html) - [pdf Version link](https://ldsands.github.io/Slides/main_slides/2020_01_SOC_6550_Environment_and_Society/Week_07_Vasi_et_al_2015_Levi_Sands.html?print-pdf)
-- 2020 [Week 11 Lee and Loundsbury 2015](https://ldsands.github.io/Slides/main_slides/2020_01_SOC_6550_Environment_and_Society/Week_11_Lee_and_Lounsbury_2015_Levi_Sands.html) - [If using locally](main_slides/2020_01_SOC_6550_Environment_and_Society/Week_11_Lee_and_Lounsbury_2015_Levi_Sands.html) - [pdf Version link](https://ldsands.github.io/Slides/main_slides/2020_01_SOC_6550_Environment_and_Society/Week_11_Lee_and_Lounsbury_2015_Levi_Sands.html?print-pdf)
-- 2020 [Week 11 Etzion and Ferraro 2010](https://ldsands.github.io/Slides/main_slides/2020_01_SOC_6550_Environment_and_Society/Week_11_Etzion_and_Ferraro_2010_Levi_Sands.html) - [If using locally](main_slides/2020_01_SOC_6550_Environment_and_Society/Week_11_Etzion_and_Ferraro_2010_Levi_Sands.html) - [pdf Version link](https://ldsands.github.io/Slides/main_slides/2020_01_SOC_6550_Environment_and_Society/Week_11_Etzion_and_Ferraro_2010_Levi_Sands.html?print-pdf)
-
-<!--
-### Poli Soc Comp Topics
-
-#### 01 Theories of Power and the State
-
-- [Theories of Power and the State](https://ldsands.github.io/Slides/main_slides/poli_soc_comp_topics/01_theories_of_power_and_the_state.html) - [If using locally](/main_slides/poli_soc_comp_topics/01_theories_of_power_and_the_state.html) - [pdf Version link](https://ldsands.github.io/Slides//main_slides/poli_soc_comp_topics/01_theories_of_power_and_the_state.html?print-pdf)
-
-#### 02 Political Culture
-
-- [Political Culture](https://ldsands.github.io/Slides/main_slides/poli_soc_comp_topics/02_political_culture.html) - [If using locally](/main_slides/poli_soc_comp_topics/02_political_culture.html) - [pdf Version link](https://ldsands.github.io/Slides//main_slides/poli_soc_comp_topics/02_political_culture.html?print-pdf)
-
-#### 03 Political Economy
-
-- [Political Economy](https://ldsands.github.io/Slides/main_slides/poli_soc_comp_topics/03_political_economy.html) - [If using locally](/main_slides/poli_soc_comp_topics/03_political_economy.html) - [pdf Version link](https://ldsands.github.io/Slides//main_slides/poli_soc_comp_topics/03_political_economy.html?print-pdf)
-
-#### 04 Social Relations (Race, Immigration, Family, etc.) and Policymaking
-
-- [Social Relations (Race, Immigration, Family, etc.) and Policymaking](https://ldsands.github.io/Slides/main_slides/poli_soc_comp_topics/04_social_relations_race_immigration_family_etc_and_policymaking.html) - [If using locally](/main_slides/poli_soc_comp_topics/04_social_relations_race_immigration_family_etc_and_policymaking.html) - [pdf Version link](https://ldsands.github.io/Slides//main_slides/poli_soc_comp_topics/04_social_relations_race_immigration_family_etc_and_policymaking.html?print-pdf)
-
-#### 05 Political Participation and Voting
-
-- [Political Participation and Voting](https://ldsands.github.io/Slides/main_slides/poli_soc_comp_topics/05_political_participation_and_voting.html) - [If using locally](/main_slides/poli_soc_comp_topics/05_political_participation_and_voting.html) - [pdf Version link](https://ldsands.github.io/Slides//main_slides/poli_soc_comp_topics/05_political_participation_and_voting.html?print-pdf)
-
-#### 06 Violence and Terrorism
-
-- [Violence and Terrorism](https://ldsands.github.io/Slides/main_slides/poli_soc_comp_topics/06_violence_and_terrorism.html) - [If using locally](/main_slides/poli_soc_comp_topics/06_violence_and_terrorism.html) - [pdf Version link](https://ldsands.github.io/Slides//main_slides/poli_soc_comp_topics/06_violence_and_terrorism.html?print-pdf)
-
-#### 07 Localism, Globalization, and International Governance
-
-- [Localism, Globalization, and International Governance](https://ldsands.github.io/Slides/main_slides/poli_soc_comp_topics/07_localism_globalization_and_international_governance.html) - [If using locally](/main_slides/poli_soc_comp_topics/07_localism_globalization_and_international_governance.html) - [pdf Version link](https://ldsands.github.io/Slides//main_slides/poli_soc_comp_topics/07_localism_globalization_and_international_governance.html?print-pdf)
-
-#### 08 Social Movements and Collective Behavior
-
-- [Social Movements and Collective Behavior](https://ldsands.github.io/Slides/main_slides/poli_soc_comp_topics/08_social_movements_and_collective_behavior.html) - [If using locally](/main_slides/poli_soc_comp_topics/08_social_movements_and_collective_behavior.html) - [pdf Version link](https://ldsands.github.io/Slides//main_slides/poli_soc_comp_topics/08_social_movements_and_collective_behavior.html?print-pdf)
-
-#### 09 Authoritarianism and Democratization
-
-- [Authoritarianism and Democratization](https://ldsands.github.io/Slides/main_slides/poli_soc_comp_topics/09_authoritarianism_and_democratization.html) - [If using locally](/main_slides/poli_soc_comp_topics/09_authoritarianism_and_democratization.html) - [pdf Version link](https://ldsands.github.io/Slides//main_slides/poli_soc_comp_topics/09_authoritarianism_and_democratization.html?print-pdf)
-
-#### 10 Social Capital and Civil Society
-
-- [Social Capital and Civil Society](https://ldsands.github.io/Slides/main_slides/poli_soc_comp_topics/10_social_capital_and_civil_society.html) - [If using locally](/main_slides/poli_soc_comp_topics/10_social_capital_and_civil_society.html) - [pdf Version link](https://ldsands.github.io/Slides//main_slides/poli_soc_comp_topics/10_social_capital_and_civil_society.html?print-pdf)
--->
+Copyright (C) 2011-2021 Hakim El Hattab, https://hakim.se
