@@ -35,7 +35,7 @@
                     <p>
                         <small>Levi Sands</small>
                     </p>
-                    <img class="r-stretch" src="../../pics/intro_soc_1010/week_003/1.png" style="width:90%">
+                    <img src="../../pics/intro_soc_1010/week_003/1.png" style="width:90%">
                 </section>
                 <!-- Class Business Slides -->
 
@@ -202,6 +202,7 @@
                 </section>
                 <!-- Group Activity Slides -->
 
+                <!-- Theme Slide -->
                 <section id="themes">
                     <h2>Themes</h2>
                     <p>
@@ -228,6 +229,7 @@
                         <a href="#" onclick="document.getElementById('theme').setAttribute('href','../../dist/theme/EWU.css'); return false;">EWU</a>
                     </p>
                 </section>
+                <!-- Theme Slide -->
 
             </div>
         </div>
@@ -251,34 +253,12 @@
                 minScale: 0.2,
                 width: "100%",
                 // progress: false,
+                transition: 'slide', // none/fade/slide/convex/concave/zoom
 
                 // Learn about plugins: https://revealjs.com/plugins/
                 plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
             });
         </script>
-        <!-- <script>
-            // More info https://github.com/hakimel/reveal.js#configuration
-            Reveal.initialize({
-                center: false,
-                controls: true,
-                height: "100%",
-                history: true,
-                margin: .1,
-                minScale: 0.2,
-                progress: false,
-                width: "100%",
-                transition: 'slide', // none/fade/slide/convex/concave/zoom
-                // More info https://github.com/hakimel/reveal.js#dependencies
-                dependencies: [
-                    { src: '../../lib/js/classList.js', condition: function() { return !document.body.classList; } },
-                    { src: '../../plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-                    { src: '../../plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-                    { src: '../../plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-                    { src: '../../plugin/zoom-js/zoom.js', async: true },
-                    { src: '../../plugin/notes/notes.js', async: true }
-                ]
-            });
-        </script> -->
 
     </body>
 </html>
