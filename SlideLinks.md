@@ -17,6 +17,7 @@
 
 ### One Off Presentations
 
+<!-- 
 - 2016 [SOC 5160 Research Presentation](https://ldsands.github.io/Slides/MainSlides/OneOffPresentations/2016_12_Levi_Sands_5160_Res_Pres.html) - [If using locally](Slides/MainSlides/OneOffPresentations/2016_12_Levi_Sands_5160_Res_Pres.html) - [pdf Version link](https://ldsands.github.io/Slides/MainSlides/OneOffPresentations/2016_12_Levi_Sands_5160_Res_Pres.html?print-pdf)
 - 2019 [Thesis Defense](https://ldsands.github.io/Slides/MainSlides/OneOffPresentations/Levi_Sands_Thesis_Presentation.html) - [If using locally](Slides/MainSlides/OneOffPresentations/Levi_Sands_Thesis_Presentation.html) - [pdf Version link](https://ldsands.github.io/Slides/MainSlides/OneOffPresentations/Levi_Sands_Thesis_Presentation.html?print-pdf)
 - 2020 [EPLS 6209 Research Presentation](https://ldsands.github.io/Slides/MainSlides/OneOffPresentations/2020_05_Levi_Sands_EPLS_6209_Presentation.html) - [If using locally](Slides/MainSlides/OneOffPresentations/2020_05_Levi_Sands_EPLS_6209_Presentation.html) - [pdf Version link](https://ldsands.github.io/Slides/MainSlides/OneOffPresentations/2020_05_Levi_Sands_EPLS_6209_Presentation.html?print-pdf)
@@ -24,6 +25,7 @@
 - 2021 [Getting Started with Reference Management Using Zotero](https://ldsands.github.io/Slides/MainSlides/OneOffPresentations/2021_10_01_Levi_Sands_Ref_Man_Zotero.html) - [If using locally](Slides/MainSlides/OneOffPresentations/2021_10_01_Levi_Sands_Ref_Man_Zotero.html) - [pdf Version link](https://ldsands.github.io/Slides/MainSlides/OneOffPresentations/2021_10_01_Levi_Sands_Ref_Man_Zotero.html?print-pdf)
 - 2022 [Getting Started with Reference Management Using Zotero](https://ldsands.github.io/Slides/MainSlides/OneOffPresentations/2022_09_29_Levi_Sands_Ref_Man_Zotero.html) - [If using locally](Slides/MainSlides/OneOffPresentations/2022_09_29_Levi_Sands_Ref_Man_Zotero.html) - [pdf Version link](https://ldsands.github.io/Slides/MainSlides/OneOffPresentations/2022_09_29_Levi_Sands_Ref_Man_Zotero.html?print-pdf)
 - 2023 [CRIM4440Sp2023 - Hagan Discussion](https://ldsands.github.io/Slides/MainSlides/OneOffPresentations/2023_02_23_Levi_Sands_White_Collar_Crime_Hagan_Discussion.html) - [If using locally](Slides/MainSlides/OneOffPresentations/2023_02_23_Levi_Sands_White_Collar_Crime_Hagan_Discussion.html) - [pdf Version link](https://ldsands.github.io/Slides/MainSlides/OneOffPresentations/2023_02_23_Levi_Sands_White_Collar_Crime_Hagan_Discussion.html?print-pdf)
+ -->
 
 <!-- 
 ### SOC 6550 Environment and Society
