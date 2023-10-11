@@ -20,29 +20,40 @@
             <!-- Printing and PDF exports
                 add "?print-pdf" to the end of the file name (right onto the end of the file name)
                 when choosing to print don't forget to check the option for background images-->
+            <style> .hangingIndent { padding-left: 2em ; text-indent: -2em ;} </style>
         </head>
     <body>
 
         <div class="reveal">
             <div class="slides">
-                <section data-markdown>
-                    ## "This is Not an Official Site": Theological Speculation and Discussion on the LDS Freedom Forum
+                <section>
+                    <section data-markdown>
+                        ## "This is Not an Official Site": Theological Speculation and Discussion on the LDS Freedom Forum
 
-                    20 October, 2023
+                        20 October, 2023
 
-                    Levi Sands, University of Iowa (levi-sands@uiowa.edu)
+                        Levi Sands, University of Iowa (levi-sands@uiowa.edu)
 
-                    Amy Chapman, Teachers College, Columbia University
+                        Amy Chapman, Teachers College, Columbia University
 
-                    Spencer P. Greenhalgh, University of Kentucky
+                        Spencer P. Greenhalgh, University of Kentucky
+                    </section>
+                    <section data-markdown>
+                        ## Terminology Disclaimer
+
+                        Despite our data mostly consisting of members of the Church of Jesus Christ of Latter-day Saints we will use the terms Mormon/Mormonism as they are common in the academic literature and as a way to acknowledge the broader Latter-day Saint movement
+                    </section>
                 </section>
 
                 <!-- Literature Review -->
                 <section>
                     <section data-markdown>
-                        ## Lit Review 1
+                        ## Mormon Theology
 
-                        - test
+                        - Latter-day Saints don't have a systematic theology (Blythe 2020)
+                        - Mythology and narrative theology inherited from Joseph Smith (Flake 2007)
+                        - Personal revelation and doctrine as taught by church leaders can come in conflict (Knoll and Riess 2020)
+                        - These characteristics of Mormon theology leaves many areas of differing beliefs, speculations and areas for discussion
                     </section>
                     <section data-markdown>
                         ## Lit Review 2
@@ -72,29 +83,54 @@ We collected the posts from the LDS Freedom Forum from its inception in 2005 thr
                     <section data-markdown>
                         ## Methods - Topic Modeling
 
-                        - Used topic modeling to sort posts into hierarchial topics
-                            - Resulted in TODO: 6XX topics
-                            - Used BerTopic with SentenceTransformers to select pre-trained language models to get the right balance of quality, features of the model and computation speed
-                            - TODO: explain the topic modeling a bit (maybe include language model/umap/hdbscan, [could show fig 1 from this paper](https://link.springer.com/chapter/10.1007/978-3-642-37456-2_14))
-                        - TODO: limitations of topic modeling
-                        - TODO: need to give high-level bullet or two about why topic modeling is useful
-                        - TODO: maybe include slide with hyper-parameters as a supplementary slide
+                        - Topic Modeling As a Method of Analysis
+                            - Several steps to get topic model outputs, each of those steps have tradeoffs: embedding, dimensionality reduction, clustering, tokenization, weighting scheme, and sometimes more (Grootendorst 2022)
+                            - Newer pre-trained embedding models use context to keep more semantic information (Devlin et al. 2019)
+                            - "'[T]opics' (clusters of words associated with a single theme) emerge inductively based on patterns of co-occurrence of words in a corpus." (Supran and Oreskes 2021 p 713)
+
+                        ![https://developers.google.com/static/machine-learning/guides/text-classification/images/WordEmbeddings.png](../../pics/OneOffPresentations/2023_10_23_Levi_Sands_SSSR_This_Is_Not_An_Official_Site/WordEmbeddings.webp)
+                    </section>
+                    <section>
+                        <h2>Methods - Topic Modeling</h2>
+                        <ul>
+                            <li>Used topic modeling to sort posts into hierarchical topics</li>
+                            <ul>
+                                <li>Resulted in 646 topics</li>
+                            </ul>
+                        </ul>
+                        <p>
+                            <img src="../../pics/OneOffPresentations/2023_10_23_Levi_Sands_SSSR_This_Is_Not_An_Official_Site/topic_tree_hierarchical_topics_screenshot.webp" style="width:50%">
+                        </p>
                     </section>
                     <section data-markdown>
                         ## Methods - Qualitatively Selecting Theological Topics
-                        
-                        - Qualitatively selected topics based on the top key words/phrases that touched on theological topics
-                            - Select topics with a preference for topics not explicity political
-                        - resulted in 103 topics that focus on theological topics
-                        - from there qualitatively confirmed theological nature of posts for some that were the top topics (by volume)
+
+                        - Qualitative selection of topics
+                            - Based on the top key words/phrases that touched on theological topics
+                            - Preference for topics not explicity political
+                        - Resulted in 103 topics that focus on theological topics
+                        - Selected 5 topics for this presentation
+                        - Confirmed theological nature of posts for small number of select topics
+                        - Selected 3 threads for each topic from list of threads with the highest number of posts assigned the target topic
+                        - These 15 threads are what we used for qualitative coding
                     </section>
                     <section data-markdown>
-                        ## Methods - Qualitatively Coding Sample Topics
-                        
-                        - Qualitatively selected "top" topics by post amount with some interest for this audience
+                        ## Methods - Qualitative Coding
+
+                        - TODO: coding stuff here
                     </section>
                 </section>
                 <!-- Data and Methods -->
+
+                <!-- Descriptive Statistics -->
+                <!-- <section>
+                    <section>
+                        ## Descriptive Statistics
+
+                        test
+                    </section>
+                </section> -->
+                <!-- Descriptive Statistics -->
 
                 <!-- Results -->
                 <section>
@@ -110,6 +146,19 @@ We collected the posts from the LDS Freedom Forum from its inception in 2005 thr
                     </section>
                 </section>
                 <!-- Results -->
+
+                <!-- Citations -->
+                <section>
+                    <h2>References</h2>
+                    <div align="left" class="hangingIndent">
+                        <p>Devlin, Jacob, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2019. “BERT: Pre-Training of Deep Bidirectional Transformers for Language Understanding.”</p>
+                        <p>Flake, Kathleen. 2007. “Translating Time: The Nature and Function of Joseph Smith’s Narrative Canon.” The Journal of Religion 87(4):497–527. doi: 10.1086/519770.</p>
+                        <p>Grootendorst, Maarten. 2022. “BERTopic: Neural Topic Modeling with a Class-Based TF-IDF Procedure.” doi: 10.48550/ARXIV.2203.05794.</p>
+                        <p>Knoll, Benjamin R., and Jana Riess. 2020. “Changing Religious and Social Attitudes of Mormon Millennials in Contemporary American Society.” Pp. 293–320 in The Palgrave Handbook of Global Mormonism, edited by R. G. Shepherd, A. G. Shepherd, and R. T. Cragun. Cham: Springer International Publishing.</p>
+                        <p>Supran, Geoffrey, and Naomi Oreskes. 2021. “Rhetoric and Frame Analysis of ExxonMobil’s Climate Change Communications.” One Earth 4(5):696–719. doi: 10.1016/j.oneear.2021.04.014.</p>
+                    </div>
+                </section>
+                <!-- Citations -->
 
                 <!-- Theme Slide -->
                 <section id="themes">
@@ -128,7 +177,7 @@ We collected the posts from the LDS Freedom Forum from its inception in 2005 thr
                         <a href="#" onclick="document.getElementById('theme').setAttribute('href','../../dist/theme/serif.css'); return false;">Serif</a> -
                         <a href="#" onclick="document.getElementById('theme').setAttribute('href','../../dist/theme/simple.css'); return false;">Simple</a><br>
                         <a href="#" onclick="document.getElementById('theme').setAttribute('href','../../dist/theme/sky.css'); return false;">Sky</a> -
-                        <a href="#" onclick="document.getElementById('theme').setAttribute('href','../../dist/theme/solarized.css'); return false;">Solarized</a>
+                        <a href="#" onclick="document.getElementById('theme').setAttribute('href','../../dist/theme/solarized.css'); return false;">Solarized</a> -
                         <a href="#" onclick="document.getElementById('theme').setAttribute('href','../../dist/theme/white_contrast_compact_verbatim_headers.css'); return false;">White Contrast Compact Verbatim Headers</a> -
                         <a href="#" onclick="document.getElementById('theme').setAttribute('href','../../dist/theme/white-contrast.css'); return false;">White Contrast</a> -
                         <a href="#" onclick="document.getElementById('theme').setAttribute('href','../../dist/theme/white.css'); return false;">White</a>
@@ -159,7 +208,7 @@ We collected the posts from the LDS Freedom Forum from its inception in 2005 thr
             // https://revealjs.com/initialization/
             Reveal.initialize({
                 controls: true,
-                progress: true,
+                progress: true, // this is a progress bar that shows along the bottom of the slideshow
                 center: false,
                 hash: true,
                 height: "100%",
