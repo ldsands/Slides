@@ -27,7 +27,7 @@
 - 2023 [CRIM4440Sp2023 - Hagan Discussion](https://ldsands.github.io/Slides/MainSlides/OneOffPresentations/2023_02_23_Levi_Sands_White_Collar_Crime_Hagan_Discussion.html) - [If using locally](Slides/MainSlides/OneOffPresentations/2023_02_23_Levi_Sands_White_Collar_Crime_Hagan_Discussion.html) - [pdf Version link](https://ldsands.github.io/Slides/MainSlides/OneOffPresentations/2023_02_23_Levi_Sands_White_Collar_Crime_Hagan_Discussion.html?print-pdf)
  -->
 - 2023 [SSSR - This Is Not An Official Site](https://ldsands.github.io/Slides/MainSlides/OneOffPresentations/2023_10_23_Levi_Sands_SSSR_This_Is_Not_An_Official_Site.html) - [If using locally](Slides/MainSlides/OneOffPresentations/2023_10_23_Levi_Sands_SSSR_This_Is_Not_An_Official_Site.html) - [pdf Version link](https://ldsands.github.io/Slides/MainSlides/OneOffPresentations/2023_10_23_Levi_Sands_SSSR_This_Is_Not_An_Official_Site.html?print-pdf)
-- 2024 [MSS - Marital Cold War](https://ldsands.github.io/Slides/MainSlides/OneOffPresentations/2024_01_05_Levi_Sands_MSS_Marital_Cold_War.html) - [If using locally](Slides/MainSlides/OneOffPresentations/2024_01_05_Levi_Sands_MSS_Marital_Cold_War.html) - [pdf Version link](https://ldsands.github.io/Slides/MainSlides/OneOffPresentations/2024_01_05_Levi_Sands_MSS_Marital_Cold_War.html?print-pdf)
+- 2024 [MSS - Marital Cold War](https://ldsands.github.io/Slides/MainSlides/OneOffPresentations/2024_04_05_Levi_Sands_MSS_Marital_Cold_War.html) - [If using locally](Slides/MainSlides/OneOffPresentations/2024_04_05_Levi_Sands_MSS_Marital_Cold_War.html) - [pdf Version link](https://ldsands.github.io/Slides/MainSlides/OneOffPresentations/2024_04_05_Levi_Sands_MSS_Marital_Cold_War.html?print-pdf)
 
 <!-- 
 ### SOC 6550 Environment and Society
