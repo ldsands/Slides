@@ -11,7 +11,7 @@
 
 ## SOC 1010
 
-- [SOC 1010 Link List](https://github.com/ldsands/Slides/blob/master/SOC1010.md)
+- [SOC 1010 Link List](https://github.com/ldsands/Slides/blob/master/MySlides/SOC1010.md)
 
 ## Groups of Slides
 
