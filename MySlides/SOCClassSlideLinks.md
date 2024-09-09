@@ -2,6 +2,8 @@
 
 <!-- link to this slide [here](https://github.com/ldsands/Slides/blob/master/MySlides/SOC1010.md) -->
 
+## SOC1030Fa24
+
 - [Class 01 - Week 01 - 24-08-27-Tu (Done)](https://ldsands.github.io/Slides/MySlides/SOC1030Fa2024/SOC1030Fa24-C01-W01-24-08-27-Tu.html) - [pdf Version link](https://ldsands.github.io/Slides/MySlides/SOC1030Fa2024/SOC1030Fa24-C01-W01-24-08-27-Tu.html?print-pdf)
 - [Class 02 - Week 01 - 24-08-29-Th (Done)](https://ldsands.github.io/Slides/MySlides/SOC1030Fa2024/SOC1030Fa24-C02-W01-24-08-29-Th.html) - [pdf Version link](https://ldsands.github.io/Slides/MySlides/SOC1030Fa2024/SOC1030Fa24-C02-W01-24-08-29-Th.html?print-pdf)
 - [Class 03 - Week 02 - 24-09-03-Tu (Done)](https://ldsands.github.io/Slides/MySlides/SOC1030Fa2024/SOC1030Fa24-C03-W02-24-09-03-Tu.html) - [pdf Version link](https://ldsands.github.io/Slides/MySlides/SOC1030Fa2024/SOC1030Fa24-C03-W02-24-09-03-Tu.html?print-pdf)
