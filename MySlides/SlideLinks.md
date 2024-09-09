@@ -9,9 +9,9 @@
     - More options are contained on [this page](https://github.com/hakimel/reveal.js)
     - One important configuration option to be aware of is if you want to print slide fragments with each fragment action on its own slide or without any of the fragment actions impacting how the pdf printout. To do this the `js/reveal.js` file must be modified. The `pdfSeparateFragments:` must be set to `false` rather than `true` which is the default.
 
-## SOC 1010
+## My SOC Course Slide Links
 
-- [SOC 1010 Link List](https://github.com/ldsands/Slides/blob/master/MySlides/SOC1010.md)
+- [My SOC Course Slide Links](https://github.com/ldsands/Slides/blob/master/MySlides/SOCCourseSlideLinks.md)
 
 ## Groups of Slides
 
