@@ -1,4 +1,4 @@
-# Sociology 1010 Slide Links
+# My Sociology Course Slide Links
 
 <!-- link to this slide [here](https://github.com/ldsands/Slides/blob/master/MySlides/SOC1010.md) -->
 
