@@ -24,6 +24,15 @@ data-background-size="contain">
 </section>
 ```
 
+- For putting a YouTube video into a slide
+
+```html
+<section>
+    <iframe width="900" height="650" src="https://www.youtube.com/embed/5tc2X8xLGPI" frameborder="0"
+        allowfullscreen></iframe>
+</section>
+```
+
 - Make items stack on top of each other, they fade in then they fade out with each advance (can't get to work with stretching)
 
 ```html
