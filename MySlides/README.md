@@ -28,8 +28,7 @@ data-background-size="contain">
 
 ```html
 <section>
-    <iframe width="900" height="650" src="https://www.youtube.com/embed/5tc2X8xLGPI" frameborder="0"
-        allowfullscreen></iframe>
+    <iframe width="900" height="650" src="https://www.youtube.com/embed/5tc2X8xLGPI" frameborder="0" allowfullscreen></iframe>
 </section>
 ```
 
