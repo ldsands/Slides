@@ -21,6 +21,9 @@ data-background-size="contain">
 ```html
 <section>
     <a href="https://www.vox.com/future-perfect/22311356/china-uyghur-birthrate-sterilization-genocide"><img src="../pics/SOC1030Fa2024/SOC1030Fa24-C02-W01-24-08-29-Th/Uyghurs.avif" style="margin:0; object-position: center; object-fit: contain; height: 96vh; width: 100vw"></a>
+    <a href="https://www.vox.com/future-perfect/22311356/china-uyghur-birthrate-sterilization-genocide">
+        <img src="../pics/SOC1030Fa2024/SOC1030Fa24-C02-W01-24-08-29-Th/Uyghurs.avif" style="margin:0; object-position: center; object-fit: contain; height: 96vh; width: 100vw">
+    </a>
 </section>
 ```
 
