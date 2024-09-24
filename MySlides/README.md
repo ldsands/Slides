@@ -46,6 +46,27 @@ data-background-size="contain">
 </span>
 ```
 
+- make images appear next to each other
+
+```html
+<section>
+    <a href="https://www.britannica.com/biography/Auguste-Comte">
+        <img src="../pics/SOC1030Fa2024/SOC1030Fa24-C04-W02-24-09-05-Th/Auguste-Comte-Tony-Toullion-Bibliotheque-Nationale-Paris.webp" height="400">
+        <!-- style="margin:0; object-position: center; object-fit: contain; height: 96vh; width: 100vw" -->
+    </a>
+    <a href="https://www.thefamouspeople.com/profiles/mile-durkheim-5451.php">
+        <img src="../pics/SOC1030Fa2024/SOC1030Fa24-C04-W02-24-09-05-Th/emile-durkheim-7.webp" height="400">
+    </a>
+    <a href="https://en.wikipedia.org/wiki/Talcott_Parsons#/media/File:Talcott_Parsons_(photo).jpg">
+        <img src="../pics/SOC1030Fa2024/SOC1030Fa24-C04-W02-24-09-05-Th/Talcott_Parsons_(photo).jpg" height="400">
+    </a>
+    <p></p>
+    <a href="https://en.wikipedia.org/wiki/Human_body#/media/File:Internal_Organs_of_the_Human_Body_from_The_Household_Physician,_1905_(6404030777).jpg">
+        <img src="../pics/SOC1030Fa2024/SOC1030Fa24-C04-W02-24-09-05-Th/518px-Internal_Organs_of_the_Human_Body_from_The_Household_Physician,_1905_(6404030777).avif" width="400">
+    </a>
+</section>
+```
+
 - Citations in ASA Style
 
 ```html
