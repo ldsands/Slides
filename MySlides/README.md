@@ -28,6 +28,7 @@ data-background-size="contain">
 ```
 
 - For putting a YouTube video into a slide
+    - if you want to set a start and end time add this to the url `?start=0&end=144` must be in seconds
 
 ```html
 <section>
