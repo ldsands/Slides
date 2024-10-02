@@ -28,6 +28,7 @@
  -->
 - 2023 [SSSR - This Is Not An Official Site](https://ldsands.github.io/Slides/MySlides/OneOffPresentations/2023_10_23_Levi_Sands_SSSR_This_Is_Not_An_Official_Site.html) - [If using locally](Slides/MySlides/OneOffPresentations/2023_10_23_Levi_Sands_SSSR_This_Is_Not_An_Official_Site.html) - [pdf Version link](https://ldsands.github.io/Slides/MySlides/OneOffPresentations/2023_10_23_Levi_Sands_SSSR_This_Is_Not_An_Official_Site.html?print-pdf)
 - 2024 [MSS - Marital Cold War](https://ldsands.github.io/Slides/MySlides/OneOffPresentations/2024_04_05_Levi_Sands_MSS_Marital_Cold_War.html) - [If using locally](Slides/MySlides/OneOffPresentations/2024_04_05_Levi_Sands_MSS_Marital_Cold_War.html) - [pdf Version link](https://ldsands.github.io/Slides/MySlides/OneOffPresentations/2024_04_05_Levi_Sands_MSS_Marital_Cold_War.html?print-pdf)
+- 2024 [SSSR - US Gubernatorial Politics and Use of Religious Rhetoric](https://ldsands.github.io/Slides/MySlides/OneOffPresentations/2024_10_20_Levi_Sands_SSSR_US_Gubernatorial_Politics_and_Use_of_Religious_Rhetoric.html) - [If using locally](Slides/MySlides/OneOffPresentations/2024_10_20_Levi_Sands_SSSR_US_Gubernatorial_Politics_and_Use_of_Religious_Rhetoric.html) - [pdf Version link](https://ldsands.github.io/Slides/MySlides/OneOffPresentations/2024_10_20_Levi_Sands_SSSR_US_Gubernatorial_Politics_and_Use_of_Religious_Rhetoric.html?print-pdf)
 
 <!-- 
 ### SOC 6550 Environment and Society
