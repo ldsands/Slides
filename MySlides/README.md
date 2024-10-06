@@ -92,3 +92,16 @@ data-background-size="contain">
     </section>
 </section>
 ```
+
+- to have fragments in a markdown page you can do the following:
+
+```html
+<script type="text/template">
+## Group Discussion
+
+- What explain these findings (higher stop rates but lower arrest rates) based on what we have learned about race and racism?
+    - Targeting of minorities <!-- .element: class="fragment" data-fragment-index="1" -->
+    - Racial stereotyping <!-- .element: class="fragment" data-fragment-index="2" -->
+    - Implicit bias <!-- .element: class="fragment" data-fragment-index="3" -->
+</script>
+```
