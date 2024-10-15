@@ -51,9 +51,12 @@
 
                         - Project Vote Smart's (PVS) database of political speeches
                         - Included all gubernatorial candidates for all elections from 2004 through March of 2023
-                        - Data is from 10 states selected to represent a diversity of states in size, political control and regions of the country (AL, AZ, CA, ID, IL, ND, NY, RI, TX, WA)
+                        - Data is from 10 states selected to represent a diversity of states in size, political control and regions of the country
+                            - AL, AZ, CA, ID, IL, ND, NY, RI, TX, WA
                         - I used the Press Release, Speech, and Statement categories for a total of 34,192 "speeches"
-                        - For the purposes of analysis I split the data into sentences using pysbd (855,440 total sentences)
+                        - A total of 77 politicians
+                        - For the purposes of analysis I split the data into sentences using pysbd (Sadvilkar and Neumann 2020)
+                            - Resulted in 855,440 total sentences
                     </section>
                     <section>
                         <img src="../pics/OneOffPresentations/2024_10_20_Levi_Sands_SSSR_US_Gubernatorial_Politics_and_Use_of_Religious_Rhetoric/SpeechesPerYearByParty.svg" style="margin:0; object-position: center; object-fit: contain; height: 96vh; width: 100vw">
@@ -62,12 +65,85 @@
                         <img src="../pics/OneOffPresentations/2024_10_20_Levi_Sands_SSSR_US_Gubernatorial_Politics_and_Use_of_Religious_Rhetoric/SpeechesPerYearByPartyByGender.svg" style="margin:0; object-position: center; object-fit: contain; height: 96vh; width: 100vw">
                     </section>
                     <section data-markdown>
-                        ## Religious/Christian Dictionary
+                        ## Religious/Christian Dictionary Terms
 
-                        - I used religious terms (mostly christian) then using regular expressions filtered
+                        - I used religious terms then using regular expressions filtered to get just those sentences that contained one of the target religious terms
+                            - The terms I included were derived from Chapp (2012) and inclusions of my own
+                            - All included terms have a minimum of 50 occurrences (lowest number was 74)
+                            - I selected a random sample of each term to determine if at least each term had >85% religious usage of the term
+                    </section>
+                    <section data-markdown>
+                        ## Religious/Christian Dictionary Terms
+
+                        - In plain English the terms used are below:
+                            - bibl, christ, christian, christianity, christians, christmas, christmases, church, churches, faith, god, holy, jesus, lord, pray, religio, sacred, worship
+                        - I used various methods to account for different forms of the terms
+                            - Example: to match with all forms of term, I used a word stem ("bibl")
+                            - Example: explicity used different forms of a term ("christ", "christian", "christianity")
+                        - In regex format: `bibl|faith|pray|religio|sacred|worship|(\b|\W|\s)(church|churches)(\b|\W|\s)|(\b|\W|\s)christ(ian|ianity|ians|mas|mases|\b|\W|\s)(\b|\W|\s)|(\b|\W|\s)god(\b|\W|\s)|(\b|\W|\s)holy(\b|\W|\s)|(\b|\W|\s)jesus(\b|\W|\s)|(\b|\W|\s)lord(\b|\W|\s)`
                     </section>
                 </section>
                 <!-- Data Description -->
+
+
+                <!-- Methods -->
+                <section>
+                    <section data-markdown>
+                        ## Methods - Topic Modeling
+
+                        - Topic Modeling As a Method of Analysis
+                            - Several steps to get topic model outputs, each of those steps have tradeoffs: embedding, dimensionality reduction, clustering, tokenization, weighting scheme, and sometimes more (Grootendorst 2022)
+                            - Newer pre-trained embedding models use context to keep more semantic information (Devlin et al. 2019)
+                            - "'[T]opics' (clusters of words associated with a single theme) emerge inductively based on patterns of co-occurrence of words in a corpus." (Supran and Oreskes 2021 p 713)
+                    </section>
+                    <section data-markdown>
+                        ## Methods - Topic Modeling
+
+                        - Used topic modeling to sort posts into hierarchical topics
+                            - Resulted in 55 total topics
+                            - Example: see topic 30 caught the term "spray"
+
+                        ![Hierarchical Topics Screenshot](../pics/OneOffPresentations/2024_10_20_Levi_Sands_SSSR_US_Gubernatorial_Politics_and_Use_of_Religious_Rhetoric/HierarchicalTopicsScreenShot.avif)
+                    </section>
+                    <section data-markdown>
+                        ## Methods Qualitative Merging of Topics
+
+                        - Selected similar topics to merge in the topic model data
+                            - Taken from the hierarchical topic outputs along with checking the raw text data
+                            - End result is TODO: total topics after merging
+                    </section>
+                </section>
+                <!-- Methods -->
+
+                <!-- Results -->
+                <section>
+                    <section data-markdown>
+                        ## Dictionary Filtering Results
+
+                        - The filtering resulted in:
+                            - 54 unique politicians (down from 77)
+                            - 3719 unique speeches
+                            - 7412 unique sentences
+                            - 8830 total usages
+                    </section>
+                    <section data-markdown>
+                        ## Sentences By State Findings
+
+                        | State | # Sentences |
+                        | ----- | ----------- |
+                        | AL    | 660         |
+                        | AZ    | 978         |
+                        | CA    | 878         |
+                        | ID    | 173         |
+                        | IL    | 570         |
+                        | ND    | 421         |
+                        | NY    | 1673        |
+                        | RI    | 269         |
+                        | TX    | 1521        |
+                        | WA    | 310         |
+                    </section>
+                </section>
+                <!-- Results -->
 
                 <!-- Subject -->
                 <!-- <section> -->
@@ -110,14 +186,16 @@
                 <!-- Review -->
 
                 <!-- Citations -->
-                <!-- <section> -->
-                    <!-- <h2>References</h2> -->
-                    <!-- <div align="left" class="hangingIndent"> -->
-                        <!-- <p></p> -->
-                        <!-- <p></p> -->
-                        <!-- <p></p> -->
-                    <!-- </div> -->
-                <!-- </section> -->
+                <section>
+                    <h2>References</h2>
+                    <div align="left" class="hangingIndent">
+                        <p>Chapp, Christopher B. 2012. Religious Rhetoric and American Politics: The Endurance of Civil Religion in Electoral Campaigns. Ithaca: Cornell Univ. Press.</p>
+                        <p>Devlin, Jacob, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2019. “BERT: Pre-Training of Deep Bidirectional Transformers for Language Understanding.”</p>
+                        <p>Grootendorst, Maarten. 2022. “BERTopic: Neural Topic Modeling with a Class-Based TF-IDF Procedure.” doi: 10.48550/ARXIV.2203.05794.</p>
+                        <p>Sadvilkar, Nipun, and Mark Neumann. 2020. “PySBD: Pragmatic Sentence Boundary Disambiguation.”</p>
+                        <p>Supran, Geoffrey, and Naomi Oreskes. 2021. “Rhetoric and Frame Analysis of ExxonMobil’s Climate Change Communications.” One Earth 4(5):696–719. doi: 10.1016/j.oneear.2021.04.014.</p>
+                    </div>
+                </section>
                 <!-- Citations -->
 
                 <!-- Theme Slide -->
