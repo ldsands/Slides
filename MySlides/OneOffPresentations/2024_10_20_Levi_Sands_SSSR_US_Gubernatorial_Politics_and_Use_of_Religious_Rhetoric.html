@@ -39,7 +39,45 @@
                 <!-- Literature Review -->
                 <section>
                     <section data-markdown>
-                        ## 
+                        ## Religious Political Rhetoric
+
+                        - Religious rhetoric has a long history in US Politics (Chapp 2012; Perry 2023)
+                        - Religious rhetoric has been increasing in recent years (Hughes 2019; Perry 2023)
+                        - Two main types of religious political rhetoric (Chapp 2012)
+                            - Civil religion rhetoric - meant to unite
+                                - Civil religion identity
+                            - Culture wars rhetoric - meant to divide
+                                - Convey moral crisis
+                    </section>
+                    <section data-markdown>
+                        ## Research Questions
+
+                        - Is there is a similar increase in religious rhetoric among US Gubernatorial candidates as seen with Presidential Candidates (Hughes 2019; Perry 2023)?
+                        - Does the proportion of culture wars rhetoric as opposed to civil religion rhetoric differ significantly over time (Chapp)?
+                        - Does the proportion of culture wars rhetoric as opposed to civil religion rhetoric differ significantly by party?
+                        - Does the proportion of culture wars rhetoric as opposed to civil religion rhetoric differ significantly by gender?
+                        - Does the proportion of culture wars rhetoric as opposed to civil religion rhetoric differ significantly by religious affiliation?
+                        - Does the proportion of culture wars rhetoric as opposed to civil religion rhetoric differ significantly with the religiosity of the state?
+                    </section>
+                    <section data-markdown>
+                        ## Main Goals
+
+                        - Use unsupervised topic modeling as the main tool for analysis (Grootendorst 2022; Maerz and Schneider 2020)
+                            - See how far I can get toward answering these research questions with just topic modeling
+                            - Construct more comprehensive dictionaries
+                        - Become more familiar with the data
+                        - Determine next steps
+                    </section>
+                    <section data-markdown>
+                        ## Topic Modeling
+
+                        - Unsupervised vs supervised
+                        - Topic Modeling As a Method of Analysis
+                            - Several steps to get topic model outputs, each of those steps have tradeoffs: embedding, dimensionality reduction, clustering, tokenization, weighting scheme, and sometimes more (Grootendorst 2022)
+                            - Newer pre-trained embedding models use context to keep more semantic information (Devlin et al. 2019)
+                            - "'[T]opics' (clusters of words associated with a single theme) emerge inductively based on patterns of co-occurrence of words in a corpus." (Supran and Oreskes 2021 p 713)
+
+                        ![https://developers.google.com/static/machine-learning/guides/text-classification/images/WordEmbeddings.png](../pics/OneOffPresentations/2023_10_23_Levi_Sands_SSSR_This_Is_Not_An_Official_Site/WordEmbeddings.webp)
                     </section>
                 </section>
                 <!-- Literature Review -->
@@ -50,7 +88,7 @@
                         ## Data
 
                         - Project Vote Smart's (PVS) database of political speeches
-                        - Included all gubernatorial candidates for all elections from 2004 through March of 2023
+                        - Included all gubernatorial candidates for all elections from 2003 through March of 2023
                         - Data is from 10 states selected to represent a diversity of states in size, political control and regions of the country
                             - AL, AZ, CA, ID, IL, ND, NY, RI, TX, WA
                         - I used the Press Release, Speech, and Statement categories for a total of 34,192 "speeches"
@@ -75,7 +113,7 @@
                     <section data-markdown>
                         ## Religious/Christian Dictionary Terms
 
-                        - In plain English the terms used are below:
+                        - In (mostly) plain English the terms included used are below:
                             - bibl, christ, christian, christianity, christians, christmas, christmases, church, churches, faith, god, holy, jesus, lord, pray, religio, sacred, worship
                         - I used various methods to account for different forms of the terms
                             - Example: to match with all forms of term, I used a word stem ("bibl")
@@ -86,47 +124,18 @@
                 <!-- Data Description -->
 
 
-                <!-- Methods -->
-                <section>
-                    <section data-markdown>
-                        ## Methods - Topic Modeling
-
-                        - Topic Modeling As a Method of Analysis
-                            - Several steps to get topic model outputs, each of those steps have tradeoffs: embedding, dimensionality reduction, clustering, tokenization, weighting scheme, and sometimes more (Grootendorst 2022)
-                            - Newer pre-trained embedding models use context to keep more semantic information (Devlin et al. 2019)
-                            - "'[T]opics' (clusters of words associated with a single theme) emerge inductively based on patterns of co-occurrence of words in a corpus." (Supran and Oreskes 2021 p 713)
-                    </section>
-                    <section data-markdown>
-                        ## Methods - Topic Modeling
-
-                        - Used topic modeling to sort posts into hierarchical topics
-                            - Resulted in 55 total topics
-                            - Example: see topic 30 caught the term "spray"
-
-                        ![Hierarchical Topics Screenshot](../pics/OneOffPresentations/2024_10_20_Levi_Sands_SSSR_US_Gubernatorial_Politics_and_Use_of_Religious_Rhetoric/HierarchicalTopicsScreenShot.avif)
-                    </section>
-                    <section data-markdown>
-                        ## Methods Qualitative Merging of Topics
-
-                        - Selected similar topics to merge in the topic model data
-                            - Taken from the hierarchical topic outputs along with checking the raw text data
-                            - End result is TODO: total topics after merging
-                    </section>
-                </section>
-                <!-- Methods -->
-
                 <!-- Results -->
                 <section>
                     <section data-markdown>
-                        ## Dictionary Filtering Results
+                        ## Results - Dictionary Filtering
 
                         - The filtering resulted in:
                             - 54 unique politicians (down from 77)
                             - 3719 unique speeches
                             - 7412 unique sentences
-                            - 8830 total usages
+                            - 8830 total term count
                     </section>
-                    <section data-markdown>
+                    <!-- <section data-markdown>
                         ## Sentences By State Findings
 
                         | State | # Sentences |
@@ -141,60 +150,156 @@
                         | RI    | 269         |
                         | TX    | 1521        |
                         | WA    | 310         |
+                    </section> -->
+                    <section data-markdown>
+                        ## Research Questions Results
+
+                        - Is there is a similar increase in religious rhetoric among US Gubernatorial candidates as seen with Presidential Candidates (Hughes 2019; Perry 2023)?
+                            - Not really
+
+
+                        ![Sentences Containing Religious Terms By Year](../pics/OneOffPresentations/2024_10_20_Levi_Sands_SSSR_US_Gubernatorial_Politics_and_Use_of_Religious_Rhetoric/SentencesContainingReligiousTermsByYear.avif)
                     </section>
+                    <section data-markdown>
+                        - Is there is a similar increase in religious rhetoric among US Gubernatorial candidates as seen with Presidential Candidates (Hughes 2019; Perry 2023)?
+                        
+                        ![Sentences Containing Religious Terms By Year](../pics/OneOffPresentations/2024_10_20_Levi_Sands_SSSR_US_Gubernatorial_Politics_and_Use_of_Religious_Rhetoric/ReligiousSentencesProportionByYear(total).avif)
+                        
+                        - Possible next steps
+                            - Get more data from more states
+                            - Better clean the data to include more religious terminology into the filter
+                            - Remove non-religious sentences from the data
+                    </section>
+                    <section data-markdown>
+                        ## Research Questions Results
+
+                        - The topic modeling data well suited to answer the questions below
+                        - Does the proportion of culture wars rhetoric as opposed to civil religion rhetoric differ significantly over time (Chapp)?
+                        - Does the proportion of culture wars rhetoric as opposed to civil religion rhetoric differ significantly by party?
+                        - Does the proportion of culture wars rhetoric as opposed to civil religion rhetoric differ significantly by gender?
+                        - Does the proportion of culture wars rhetoric as opposed to civil religion rhetoric differ significantly with the religiosity of the state?
+                        - Does the proportion of culture wars rhetoric as opposed to civil religion rhetoric differ significantly by religious affiliation?
+                    </section>
+                </section>
+
+
+                    <!-- <section data-markdown>
+                        ## Research Questions Results
+
+                        - A surprising amount of the candidates gave no religion that I could find (~15%)
+                        - I will leave this for the future
+
+                        | Denomination           | Candidates |
+                        | ---------------------- | ---------- |
+                        | Atheist                | 1          |
+                        | Baptist                | 3          |
+                        | Catholic-Christian     | 1          |
+                        | Catholic               | 19         |
+                        | Christian Episcopalian | 1          |
+                        | Christian              | 9          |
+                        | Eastern Orthodox       | 2          |
+                        | Episcopalian           | 6          |
+                        | Hindu                  | 1          |
+                        | Jewish                 | 3          |
+                        | Lutheran               | 3          |
+                        | Methodist              | 4          |
+                        | Mormon                 | 3          |
+                        | Presbyterian           | 2          |
+                        | Protestant             | 1          |
+                        | Roman Catholic         | 6          |
+                        | Unitarian Universalist | 1          |
+                        | Undetermined           | 11         |
+                    </section> -->
+
+                <!-- Topic Results -->
+                <section>
+                    <section data-markdown>
+                        ## Topic Modeling
+
+                        - Used BERTopic with hierarchical clustering (HDBSCAN) in an unsupervised topic model (Grootendorst 2022)
+                            - 55 total topics
+                            - Example: see topic 30 caught the term "spray"
+
+                        ![Hierarchical Topics Screenshot](../pics/OneOffPresentations/2024_10_20_Levi_Sands_SSSR_US_Gubernatorial_Politics_and_Use_of_Religious_Rhetoric/HierarchicalTopicsScreenShot.avif)
+                    </section>
+                    <section data-markdown>
+                        ## Topic Modeling
+
+                        - The topic modeling output gave me some interesting results
+                        - Some examples to discuss
+                        > Topic 40: "Let us continue to pray for our fallen firefighters and their families" (Brewer R AZ 2014)
+                        >
+                        > Topic 40: "Now, we're also praying for Officer James Veentra, who has been wounded in the same incident." (Schwarzenegger R CA 2008)
+                        >
+                        > Topic 39: "Prayer is about a personal connection with God." (Perry R TX 2011)
+                        >
+                        > Topic 39: "It isn't enough just to pray for rain" (Gregoire D WA 2005)
+                    </section>
+                    <section data-markdown>
+                        ## Topic Modeling
+
+                        - The topic modeling sometimes picked up on nuances that I will almost certainly use in the future
+                            - In topic 40 topic the prayers were being offered as a way to help or acknowledge other's suffering
+                            - In Topic 39 the use of prayer is instead about what prayer does or does not do
+                        - In other cases I can only guess as why some passages were grouped (NY and AL)
+                    </section>
+                    <section data-markdown>
+                        ## Topic Modeling
+
+                        - Another comparitive example
+                        > Topic 4: "May God Bless You and the Great State of Alabama." (Riley R AL 2003)
+                        >
+                        > Topic 4: "I believe in Alabama, a state dedicated to a faith in God and the enlightenment of mankind" (Ivey R AL 2018)
+                        >
+                        > Topic 4: "Marriage Equality is a matter of fairness and legal security for thousands of families in this state -- not of religion or culture." (Cuomo D NY 2011)
+                        >
+                        > Topic 4: "The new law shields persons from civil and criminal liability in New York courts if they act in good faith" (Spitzer D NY 2007)
+                    </section>
+                    <!-- <section data-markdown> -->
+                        <!-- ## Methods Qualitative Merging of Topics -->
+                        <!-- - Selected similar topics to merge in the topic model data -->
+                            <!-- - Taken from the hierarchical topic outputs along with checking the raw text data -->
+                            <!-- - End result is 16 total topics after merging -->
+                    <!-- </section> -->
                 </section>
                 <!-- Results -->
 
-                <!-- Subject -->
-                <!-- <section> -->
-                    <!-- <section data-markdown> -->
-                        <!-- ##  -->
-                    <!-- </section> -->
-                <!-- </section> -->
-                <!-- Subject -->
-                
-                <!-- Group Activity: XXXX -->
-                <!-- <section> -->
-                    <!-- <section data-markdown> -->
-                        <!-- ##  -->
-                    <!-- </section> -->
-                <!-- </section> -->
-                <!-- Group Activity: XXXX -->
-                
-                <!-- Subject -->
-                <!-- <section> -->
-                    <!-- <section data-markdown> -->
-                        <!-- ##  -->
-                    <!-- </section> -->
-                <!-- </section> -->
-                <!-- Subject -->
+                <!-- Next Steps -->
+                <section>
+                    <section data-markdown>
+                        ## Future Research
 
-                <!-- Participation Activity 0X -->
-                <!-- <section> -->
-                    <!-- <section data-markdown> -->
-                        <!-- ##  -->
-                    <!-- </section> -->
-                <!-- </section> -->
-                <!-- Participation Activity 0X -->
-
-                <!-- Review -->
-                <!-- <section> -->
-                    <!-- <section data-markdown> -->
-                        <!-- ## Review -->
-                    <!-- </section> -->
-                <!-- </section> -->
-                <!-- Review -->
+                        - Get more speech data
+                        - Update the dictionary
+                            - Espcially to include more non-christian religious terms
+                        - Create some negitive filtering
+                            - For example remove sentences good faith
+                        - Replace terms that confound the model with a generic term
+                            - Replace all state names with STATENAME
+                        - Run the topic model again
+                        - Qualitatively code the data
+                        - Quantitativly run regressions
+                    </section>
+                </section>
+                <!-- Next Steps -->
 
                 <!-- Citations -->
                 <section>
                     <h2>References</h2>
+                    <small>
                     <div align="left" class="hangingIndent">
                         <p>Chapp, Christopher B. 2012. Religious Rhetoric and American Politics: The Endurance of Civil Religion in Electoral Campaigns. Ithaca: Cornell Univ. Press.</p>
                         <p>Devlin, Jacob, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2019. “BERT: Pre-Training of Deep Bidirectional Transformers for Language Understanding.”</p>
                         <p>Grootendorst, Maarten. 2022. “BERTopic: Neural Topic Modeling with a Class-Based TF-IDF Procedure.” doi: 10.48550/ARXIV.2203.05794.</p>
+                        <p>Hughes, Ceri. 2019. “The God Card: Strategic Employment of Religious Language in U.S. Presidential Discourse.” International Journal of Communication 13:528–49.</p>
+                        <p>Maerz, Seraphine F., and Carsten Q. Schneider. 2020. “Comparing Public Communication in Democracies and Autocracies: Automated Text Analyses of Speeches by Heads of Government.” Quality & Quantity 54(2):517–45. doi: 10.1007/s11135-019-00885-7.</p>
+                        <p>Perry, Samuel L. 2023. “Religion Matters (And Doesn’t Go Away When Sociologists Ignore It).” Sociological Forum 38(4):1456–63. doi: 10.1111/socf.12960.</p>
+                        <p>Perry, Samuel L., Andrew L. Whitehead, and Joshua B. Grubbs. 2024. “Race over Religion: Christian Nationalism and Perceived Threats to National Unity.” Sociology of Race and Ethnicity 10(2):192–210. doi: 10.1177/23326492231160530.</p>
+                        <p>Perry, Samuel L., Cyrus Schleifer, Andrew L. Whitehead, and Kenneth E. Frantz. 2024. “Our Kind of American: Christian Nationalism, Race, and Contingent Views of Cultural Membership.” The Sociological Quarterly 65(1):126–56. doi: 10.1080/00380253.2023.2229385.</p>
                         <p>Sadvilkar, Nipun, and Mark Neumann. 2020. “PySBD: Pragmatic Sentence Boundary Disambiguation.”</p>
                         <p>Supran, Geoffrey, and Naomi Oreskes. 2021. “Rhetoric and Frame Analysis of ExxonMobil’s Climate Change Communications.” One Earth 4(5):696–719. doi: 10.1016/j.oneear.2021.04.014.</p>
                     </div>
+                    </small>
                 </section>
                 <!-- Citations -->
 
