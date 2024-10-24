@@ -105,3 +105,17 @@ data-background-size="contain">
     - Implicit bias <!-- .element: class="fragment" data-fragment-index="3" -->
 </script>
 ```
+
+- To add color to some markdown text
+
+```html
+<section data-markdown>
+    <script type="text/template">
+        ## Sex & Gender
+
+        > Test text <span style="color: red">highlighted text</span> more test text
+
+        - More text (Citation 2024)
+    </script>
+</section>
+```
