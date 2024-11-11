@@ -119,3 +119,32 @@ data-background-size="contain">
     </script>
 </section>
 ```
+
+- To add columns to a slide you can use the code below as a guide
+    - I got this code from [a pull request that hasn't been implemented as of 2024-11-11](https://github.com/hakimel/reveal.js/pull/2031/files)
+    - Due to this not being implemented at the time I started using it I incorporated the code needed into my custom themes manually
+    - Note that it doesn't work very well with markdown at all even using the script text/template inclusion
+
+```html
+<section>
+    <h2>Multi-Column Support</h2>
+    <div class='multi-col'>
+        <div class='col'>
+            This is column one of two columns. That usually resides on the left...
+        </div>
+        <div class='col'>
+            ...and column two on the other side.
+            <ul class='col'>
+                <li>no float needed</li>
+                <li>no clearfix needed</li>
+            </ul>
+        </div>
+    </div>
+    <h4>...with the very same classes, you can also have 3 or even 4 columns:</h4>
+    <div class='multi-col'>
+        <div class='col'>Also works for three columns...</div>
+        <div class='col'>...as we can show in...</div>
+        <div class='col'>...this example here.</div>
+    </div>
+</section>
+```
