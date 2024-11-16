@@ -10,8 +10,8 @@
 
 ```html
 <section
-data-background-image="../pics/XXXXX/XXXXX/XXXXX.avif"
-data-background-size="contain">
+    data-background-image="../pics/XXXXX/XXXXX/XXXXX.avif"
+    data-background-size="contain">
 </section>
 ```
 
@@ -87,23 +87,23 @@ data-background-size="contain">
 
 ```html
 <section>
-    <section>
-        <input type="text", rows=10 style="font-size:16pt; object-position: center; object-fit: contain; height: 25vh; width: 50vw">
-    </section>
+    <input type="text", rows=10 style="font-size:16pt; object-position: center; object-fit: contain; height: 25vh; width: 50vw">
 </section>
 ```
 
 - to have fragments in a markdown page you can do the following:
 
 ```html
-<script type="text/template">
-## Group Discussion
+<section>
+    <script type="text/template">
+        ## Group Discussion
 
-- What explain these findings (higher stop rates but lower arrest rates) based on what we have learned about race and racism?
-    - Targeting of minorities <!-- .element: class="fragment" data-fragment-index="1" -->
-    - Racial stereotyping <!-- .element: class="fragment" data-fragment-index="2" -->
-    - Implicit bias <!-- .element: class="fragment" data-fragment-index="3" -->
-</script>
+        - What explain these findings (higher stop rates but lower arrest rates) based on what we have learned about race and racism?
+            - Targeting of minorities <!-- .element: class="fragment" data-fragment-index="1" -->
+            - Racial stereotyping <!-- .element: class="fragment" data-fragment-index="2" -->
+            - Implicit bias <!-- .element: class="fragment" data-fragment-index="3" -->
+    </script>
+</section>
 ```
 
 - To add color to some markdown text
