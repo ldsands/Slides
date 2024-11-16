@@ -1,184 +1,246 @@
 <!doctype HTML>
-    <html lang="en">
-        <head>
-            <meta charset="utf-8">
-            <title>TODO:</title>
-            <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-            <meta name="author" content="Levi Sands">
-            <meta name="apple-mobile-web-app-capable" content="yes">
-            <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link rel="stylesheet" href="../../dist/reset.css">
-            <link rel="stylesheet" href="../../dist/reveal.css">
-            <!-- <link rel="stylesheet" href="../../dist/theme/black.css" id="theme"> -->
-            <!-- <link rel="stylesheet" href="../mythemes/Gonzaga.css" id="theme"> -->
-            <!-- <link rel="stylesheet" href="../mythemes/EWU.css" id="theme"> -->
-            <!-- <link rel="stylesheet" href="../mythemes/Udub.css" id="theme"> -->
-            <link rel="stylesheet" href="../mythemes/USU.css" id="theme">
-            <!-- Theme used for syntax highlighting of code -->
-            <link rel="stylesheet" href="../../plugin/highlight/zenburn.css">
-            <!-- Printing and PDF exports
-                add "?print-pdf" to the end of the file name (right onto the end of the file name)
-                when choosing to print don't forget to check the option for background images-->
-            <style> .hangingIndent { padding-left: 2em ; text-indent: -2em ;} </style>
-        </head>
-    <body>
+<html lang="en">
 
-        <div class="reveal">
-            <div class="slides">
+<head>
+    <meta charset="utf-8">
+    <title>SOC1030Fa24-C25-W13-24-11-19-Tu</title>
+    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+    <meta name="author" content="Levi Sands">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../dist/reset.css">
+    <link rel="stylesheet" href="../../dist/reveal.css">
+    <!-- <link rel="stylesheet" href="../../dist/theme/black.css" id="theme"> -->
+    <!-- <link rel="stylesheet" href="../mythemes/Gonzaga.css" id="theme"> -->
+    <!-- <link rel="stylesheet" href="../mythemes/EWU.css" id="theme"> -->
+    <!-- <link rel="stylesheet" href="../mythemes/Udub.css" id="theme"> -->
+    <link rel="stylesheet" href="../mythemes/USU.css" id="theme">
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="../../plugin/highlight/zenburn.css">
+    <!-- Printing and PDF exports
+        add "?print-pdf" to the end of the file name (right onto the end of the file name)
+        when choosing to print don't forget to check the option for background images-->
+    <style> .hangingIndent { padding-left: 2em ; text-indent: -2em ;} </style>
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <section data-markdown>
+                    ## SOC:1030:0001 | Contemporary Social Problems Fall 2024 | SOC1030Fa24
+
+                    SOC1030Fa24 - Class 25 - Week 13 - 24-11-19 - Tu
+
+                    Levi Sands, MA, University of Iowa (levi-sands@uiowa.edu)
+                </section>
+                <section data-markdown>
+                    ## Due Dates
+
+                    - **DONE**: The instructions for Application Assignment 01 are up under Week 05 when it is due (It is due on 2024-09-26)
+                    - **DONE**: The Midterm will be on Week 09 (In class on 2024-10-22)
+                    - **DONE**: The instructions for Application Assignment 02 are up under Week 12 when it is due (It is due on 2024-11-12)
+                    - The book list for the Book Assignment is up under the module labeled "Course information" it is due during Week 15 (Due on 2024-12-03)
+                    - The Book Assignment's instructions is up under Week 15 when it is due (It is due on 2024-12-03)
+                    - Final Exam 2024-12-19 From 8:00 PM to 10:00 PM (Thursday)
+                </section>
+            </section>
+
+            <!-- Last Time in Class -->
+            <section>
+                <section data-markdown>
+                    ## Last Time in Class
+
+                    - Erving Goffman
+                    - Face
+                    - The Expressive Social Order
+                    - Impression management
+                    - Francis Haugen
+                    - Nodes
+                    - Ties or Edges
+                    - Hubs
+                    - Small-World
+                    - Clustering
+                    - Homophily
+                </section>
+            </section>
+            <!-- Last Time in Class -->
+
+            <!-- Subject -->
+            <section>
+                <section data-markdown>
+                    ## Social Networks (Network Science)
+
+                    - **Nodes**: the distinct element or actor
+                        - The "dots" in network graphs
+                    - **Ties or Edges**: the connections between nodes
+                        - The lines connecting nodes
+                    - **Hubs**: Nodes with a high degree
+                        - Users with many ties (friends) also called bridging ties
+                        - Nicholas A. Christakis and sickness on campus
+                    - **Small-World**: "Easy" to get from any node to every other node in the network
+                        - The average degree of separation between 2 random nodes was 4.7
+                            - Source: The Anatomy of the Facebook Social Graph
+                    - **Clustering**: to what degree the network is sorted into clusters
+                        - Facebook high clustering due to recommendation algorithm
+                        - How are clustering and social closure related?
+                    - **Homophily**: to what extent the ties are between nodes that are similar to each other
+                        - Example: "Mormonverse" on Reddit: automatic banned on r/lds if user has ever posted on r/exmormon
+                </section>
+                <section data-markdown>
+                    <script type="text/template">
+                    <a href="https://github.com/benedekrozemberczki/awesome-community-detection">
+                        <img src="../pics/SOC1030Fa2024/SOC1030Fa24-C24-W12-24-11-14-Th/ClusteredNetwork.avif" style="margin:0; object-position: center; object-fit: contain; height: 66vh; width: 60vw">
+                    </a>
+
+                    - Is this network highly clustered?
+                    - What differentiates each cluster from each other?
+                    - Imagine that each of these clusters are workers in different departments.
+                        - Which cluster would you prefer to be in a work setting?
+                        - Which cluster would you prefer to be in when there is a viral outbreak.
+                    </script>
+                </section>
                 <section>
-                    <section data-markdown>
-                        ## SOC:1030:0001 | Contemporary Social Problems Fall 2024 | SOC1030Fa24
-
-                        SOC1030Fa24 - Class TODO: - Week TODO: - 24-TODO:-TODO: - TODO:
-
-                        Levi Sands, MA, University of Iowa (levi-sands@uiowa.edu)
-                    </section>
+                    <a href="https://www.dreamstime.com/big-data-concept-visualization-distributed-network-social-media-graph-information-clustering-communication-system-background-image207562062">
+                        <img src="../pics/SOC1030Fa2024/SOC1030Fa24-C24-W12-24-11-14-Th/LargeClusteredNetworkWithSeperationMark.avif" style="margin:0; object-position: center; object-fit: contain; height: 96vh; width: 100vw">
+                    </a>
                 </section>
+            </section>
+            <!-- Subject -->
 
-
-                <!-- NOTE: Template Below -->
-
-                <!-- Quiz 0X -->
-                <!-- <section> -->
-                    <!-- <section data-markdown> -->
-                        <!-- ##  -->
-                    <!-- </section> -->
+            <!-- Subject -->
+            <!-- <section> -->
+                <!-- <section data-markdown> -->
+                    <!-- ##  -->
                 <!-- </section> -->
-                <!-- Quiz 0X -->
-                
-                <!-- Last Time in Class -->
-                <section>
-                    <section data-markdown>
-                        ## Last Time in Class
+            <!-- </section> -->
+            <!-- Subject -->
 
-                        - Erving Goffman
-                        - Face
-                        - The Expressive Social Order
-                        - Impression management
-                        - Francis Haugen
-                        - Nodes
-                        - Ties or Edges
-                        - Hubs
-                        - Small-World
-                        - Clustering
-                        - Homophily
-                    </section>
+            <!-- Subject -->
+            <!-- <section> -->
+                <!-- <section data-markdown> -->
+                    <!-- ##  -->
+                <!-- </section> -->
+            <!-- </section> -->
+            <!-- Subject -->
+
+            <!-- Subject -->
+            <!-- <section> -->
+                <!-- <section data-markdown> -->
+                    <!-- ##  -->
+                <!-- </section> -->
+            <!-- </section> -->
+            <!-- Subject -->
+
+            <!-- Group Activity: XXXX -->
+            <section>
+                <section data-markdown>
+                    ## Group Activity
+
+                    - TODO:
                 </section>
-                <!-- Last Time in Class -->
+            </section>
+            <!-- Group Activity: XXXX -->
 
-                <!-- Subject -->
-                <!-- <section> -->
-                    <!-- <section data-markdown> -->
-                        <!-- ##  -->
-                    <!-- </section> -->
-                <!-- </section> -->
-                <!-- Subject -->
-                
-                <!-- Group Activity: XXXX -->
-                <!-- <section> -->
-                    <!-- <section data-markdown> -->
-                        <!-- ##  -->
-                    <!-- </section> -->
-                <!-- </section> -->
-                <!-- Group Activity: XXXX -->
-                
-                <!-- Subject -->
-                <!-- <section> -->
-                    <!-- <section data-markdown> -->
-                        <!-- ##  -->
-                    <!-- </section> -->
-                <!-- </section> -->
-                <!-- Subject -->
-
-                <!-- Participation Activity 0X -->
-                <!-- <section> -->
-                    <!-- <section data-markdown> -->
-                        <!-- ##  -->
-                    <!-- </section> -->
-                <!-- </section> -->
-                <!-- Participation Activity 0X -->
-
-                <!-- Review -->
-                <!-- <section> -->
-                    <!-- <section data-markdown> -->
-                        <!-- ## Review -->
-                    <!-- </section> -->
-                <!-- </section> -->
-                <!-- Review -->
-
-                <!-- Citations -->
-                <!-- <section> -->
-                    <!-- <h2>References</h2> -->
-                    <!-- <div align="left" class="hangingIndent"> -->
-                        <!-- <p></p> -->
-                        <!-- <p></p> -->
-                        <!-- <p></p> -->
-                    <!-- </div> -->
-                <!-- </section> -->
-                <!-- Citations -->
-
-                <!-- Theme Slide -->
-                <section id="themes">
-                    <h2>Themes</h2>
-                    <p>
-                        reveal.js comes with a few themes built in: <br>
-                        <!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
-                        <a href="#" onclick="document.getElementById('theme').setAttribute('href','../../dist/theme/beige.css'); return false;">Beige</a> -
-                        <a href="#" onclick="document.getElementById('theme').setAttribute('href','../../dist/theme/black-contrast.css'); return false;">Black Contrast</a> -
-                        <a href="#" onclick="document.getElementById('theme').setAttribute('href','../../dist/theme/black.css'); return false;">Black (default)</a> -
-                        <a href="#" onclick="document.getElementById('theme').setAttribute('href','../../dist/theme/blood.css'); return false;">Blood</a> -
-                        <a href="#" onclick="document.getElementById('theme').setAttribute('href','../../dist/theme/dracula.css'); return false;">Dracula</a><br>
-                        <a href="#" onclick="document.getElementById('theme').setAttribute('href','../../dist/theme/league.css'); return false;">League</a> -
-                        <a href="#" onclick="document.getElementById('theme').setAttribute('href','../../dist/theme/moon.css'); return false;">Moon</a> -
-                        <a href="#" onclick="document.getElementById('theme').setAttribute('href','../../dist/theme/night.css'); return false;">Night</a> -
-                        <a href="#" onclick="document.getElementById('theme').setAttribute('href','../../dist/theme/serif.css'); return false;">Serif</a> -
-                        <a href="#" onclick="document.getElementById('theme').setAttribute('href','../../dist/theme/simple.css'); return false;">Simple</a><br>
-                        <a href="#" onclick="document.getElementById('theme').setAttribute('href','../../dist/theme/sky.css'); return false;">Sky</a> -
-                        <a href="#" onclick="document.getElementById('theme').setAttribute('href','../../dist/theme/solarized.css'); return false;">Solarized</a> -
-                        <a href="#" onclick="document.getElementById('theme').setAttribute('href','../../dist/theme/white_contrast_compact_verbatim_headers.css'); return false;">White Contrast Compact Verbatim Headers</a> -
-                        <a href="#" onclick="document.getElementById('theme').setAttribute('href','../../dist/theme/white-contrast.css'); return false;">White Contrast</a> -
-                        <a href="#" onclick="document.getElementById('theme').setAttribute('href','../../dist/theme/white.css'); return false;">White</a>
-                    </p>
-                    <p>
-                        Themes created by Levi Sands <br>
-                        <a href="#" onclick="document.getElementById('theme').setAttribute('href','../mythemes/Udub.css'); return false;">Udub</a> -
-                        <a href="#" onclick="document.getElementById('theme').setAttribute('href','../mythemes/USU.css'); return false;">USU</a> -
-                        <a href="#" onclick="document.getElementById('theme').setAttribute('href','../mythemes/Uiowa.css'); return false;">Uiowa</a> -
-                        <a href="#" onclick="document.getElementById('theme').setAttribute('href','../mythemes/Gonzaga.css'); return false;">Gonzaga</a> -
-                        <a href="#" onclick="document.getElementById('theme').setAttribute('href','../mythemes/EWU.css'); return false;">EWU</a>
-                    </p>
+            <!-- Subject -->
+            <section>
+                <section data-markdown>
+                    ## TODO:
                 </section>
-                <!-- Theme Slide -->
+            </section>
+            <!-- Subject -->
 
-            </div>
+            <!-- Participation Activity 10 -->
+            <section>
+                <section data-markdown>
+                    ## Participation Activity 10
+
+                    - TODO:
+                </section>
+            </section>
+            <!-- Participation Activity 10 -->
+
+            <!-- Review -->
+            <!-- <section> -->
+                <!-- <section data-markdown> -->
+                    <!-- ## Review -->
+                <!-- </section> -->
+            <!-- </section> -->
+            <!-- Review -->
+
+            <!-- Citations -->
+            <!-- <section> -->
+                <!-- <h2>References</h2> -->
+                <!-- <div align="left" class="hangingIndent"> -->
+                    <!-- <p></p> -->
+                    <!-- <p></p> -->
+                    <!-- <p></p> -->
+                <!-- </div> -->
+            <!-- </section> -->
+            <!-- Citations -->
+
+            <!-- Theme Slide -->
+            <section id="themes">
+                <h2>Themes</h2>
+                <p>
+                    reveal.js comes with a few themes built in: <br>
+                    <!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
+                    <a href="#" onclick="document.getElementById('theme').setAttribute('href','../../dist/theme/beige.css'); return false;">Beige</a> -
+                    <a href="#" onclick="document.getElementById('theme').setAttribute('href','../../dist/theme/black-contrast.css'); return false;">Black Contrast</a> -
+                    <a href="#" onclick="document.getElementById('theme').setAttribute('href','../../dist/theme/black.css'); return false;">Black (default)</a> -
+                    <a href="#" onclick="document.getElementById('theme').setAttribute('href','../../dist/theme/blood.css'); return false;">Blood</a> -
+                    <a href="#" onclick="document.getElementById('theme').setAttribute('href','../../dist/theme/dracula.css'); return false;">Dracula</a><br>
+                    <a href="#" onclick="document.getElementById('theme').setAttribute('href','../../dist/theme/league.css'); return false;">League</a> -
+                    <a href="#" onclick="document.getElementById('theme').setAttribute('href','../../dist/theme/moon.css'); return false;">Moon</a> -
+                    <a href="#" onclick="document.getElementById('theme').setAttribute('href','../../dist/theme/night.css'); return false;">Night</a> -
+                    <a href="#" onclick="document.getElementById('theme').setAttribute('href','../../dist/theme/serif.css'); return false;">Serif</a> -
+                    <a href="#" onclick="document.getElementById('theme').setAttribute('href','../../dist/theme/simple.css'); return false;">Simple</a><br>
+                    <a href="#" onclick="document.getElementById('theme').setAttribute('href','../../dist/theme/sky.css'); return false;">Sky</a> -
+                    <a href="#" onclick="document.getElementById('theme').setAttribute('href','../../dist/theme/solarized.css'); return false;">Solarized</a> -
+                    <a href="#" onclick="document.getElementById('theme').setAttribute('href','../../dist/theme/white_contrast_compact_verbatim_headers.css'); return false;">White Contrast Compact Verbatim Headers</a> -
+                    <a href="#" onclick="document.getElementById('theme').setAttribute('href','../../dist/theme/white-contrast.css'); return false;">White Contrast</a> -
+                    <a href="#" onclick="document.getElementById('theme').setAttribute('href','../../dist/theme/white.css'); return false;">White</a>
+                </p>
+                <p>
+                    Themes created by Levi Sands <br>
+                    <a href="#" onclick="document.getElementById('theme').setAttribute('href','../mythemes/Udub.css'); return false;">Udub</a> -
+                    <a href="#" onclick="document.getElementById('theme').setAttribute('href','../mythemes/USU.css'); return false;">USU</a> -
+                    <a href="#" onclick="document.getElementById('theme').setAttribute('href','../mythemes/Uiowa.css'); return false;">Uiowa</a> -
+                    <a href="#" onclick="document.getElementById('theme').setAttribute('href','../mythemes/Gonzaga.css'); return false;">Gonzaga</a> -
+                    <a href="#" onclick="document.getElementById('theme').setAttribute('href','../mythemes/EWU.css'); return false;">EWU</a>
+                </p>
+            </section>
+            <!-- Theme Slide -->
+
         </div>
-        <script src="../../dist/reveal.js"></script>
-        <script src="../../js/reveal.js"></script>
-        <script src="../../lib/js/head.min.js"></script>
-        <script src="../../plugin/highlight/highlight.js"></script>
-        <script src="../../plugin/markdown/markdown.js"></script>
-        <script src="../../plugin/notes/notes.js"></script>
-        <script src="../../plugin/search/search.js"></script>
-        <script src="../../plugin/zoom/zoom.js"></script>
-        <script>
-            // Also available as an ES module, see:
-            // https://revealjs.com/initialization/
-            Reveal.initialize({
-                controls: true,
-                progress: true, // this is a progress bar that shows along the bottom of the slideshow
-                center: false,
-                hash: true,
-                height: "100%",
-                // margin: .1,
-                minScale: 0.2,
-                width: "100%",
-                // progress: false,
-                transition: 'slide', // none/fade/slide/convex/concave/zoom
+    </div>
+    <script src="../../dist/reveal.js"></script>
+    <script src="../../js/reveal.js"></script>
+    <script src="../../lib/js/head.min.js"></script>
+    <script src="../../plugin/highlight/highlight.js"></script>
+    <script src="../../plugin/markdown/markdown.js"></script>
+    <script src="../../plugin/notes/notes.js"></script>
+    <script src="../../plugin/search/search.js"></script>
+    <script src="../../plugin/zoom/zoom.js"></script>
+    <script>
+        // Also available as an ES module, see:
+        // https://revealjs.com/initialization/
+        Reveal.initialize({
+            controls: true,
+            progress: true, // this is a progress bar that shows along the bottom of the slideshow
+            center: false,
+            hash: true,
+            height: "100%",
+            // margin: .1,
+            minScale: 0.2,
+            width: "100%",
+            // progress: false,
+            transition: 'slide', // none/fade/slide/convex/concave/zoom
 
-                // Learn about plugins: https://revealjs.com/plugins/
-                plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
-            });
-        </script>
-    </body>
+            // Learn about plugins: https://revealjs.com/plugins/
+            plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+        });
+    </script>
+</body>
 </html>
