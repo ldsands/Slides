@@ -27,6 +27,24 @@
 </section>
 ```
 
+- For some easier image code so you don't have to continually repeat the week directory for example you can do the following:
+
+```html
+# Put the script code below in the head section
+    <script>
+        let parent_dir = "../pics/SOC1030Fa2024/";
+        let week_dir = "SOC1030Fa24-C02-W01-24-08-29-Th/";
+        let pic_dir = parent_dir + week_dir
+    </script>
+# then you can use the following for the image
+<section>
+    <a href="https://www.vox.com/future-perfect/22311356/china-uyghur-birthrate-sterilization-genocide">
+        <img id="TargetImg" src="" style="margin:0; object-position: center; object-fit: contain; height: 76vh; width: 100vw">
+    </a>
+    <script>document.getElementById("TargetImg").src = pic_dir + "Uyghurs.avif";</script>
+</section>
+```
+
 - For putting a YouTube video into a slide
     - if you want to set a start and end time add this to the url `?start=0&end=144` must be in seconds
 

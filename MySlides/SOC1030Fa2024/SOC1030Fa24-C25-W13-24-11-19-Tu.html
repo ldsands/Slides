@@ -22,8 +22,12 @@
         add "?print-pdf" to the end of the file name (right onto the end of the file name)
         when choosing to print don't forget to check the option for background images-->
     <style> .hangingIndent { padding-left: 2em ; text-indent: -2em ;} </style>
+    <script>
+        let parent_dir = "../pics/SOC1030Fa2024/";
+        let week_dir = "SOC1030Fa24-C25-W13-24-11-19-Tu/";
+        let pic_dir = parent_dir + week_dir
+    </script>
 </head>
-
 <body>
     <div class="reveal">
         <div class="slides">
@@ -70,6 +74,35 @@
             <!-- Subject -->
             <section>
                 <section data-markdown>
+                    ## Sociology and Network Science
+
+                    - Sociological Origins of Network Science
+                        - Early theory by Georg Simmel and Emile Durkheim
+                        - Some work done with operationalization in the 30s and 50s
+                        - In the 1970s developed into a science by Mark Granovetter and several others
+                        - Today some (relatively) famous Sociologists (Duncan J. Watts and Nicholas A. Christakis) have gone further with computation and network analysis
+                    - Freda Lynn - Sociology of Networks SOC:3880
+                        - Only requires SOC:1010 or SOC:1030
+                        - Also teaches Capstone and Methods course for undergrads
+                    - Yongren Shi - Data Science for Social Good
+                        - Also teaches this course
+                    - Both Dr. Lynn and Dr. Shi actively use network methods in their research
+                    - Dr. Shi and I have done some network science with Reddit (r/incels) using network methods
+                </section>
+                <section>
+                    <a href="https://sociology.uiowa.edu/sites/sociology.uiowa.edu/files/styles/square__768_x_768/public/2024-08/fbl_2022.jpg?h=74979c8c&itok=O2mllu1Q">
+                        <img src="https://sociology.uiowa.edu/sites/sociology.uiowa.edu/files/styles/square__768_x_768/public/2024-08/fbl_2022.jpg?h=74979c8c&itok=O2mllu1Q" style="margin:0; object-position: center; object-fit: contain; height: 96vh; width: 45vw">
+                    </a>
+                    <a href="https://sociology.uiowa.edu/sites/sociology.uiowa.edu/files/styles/square__768_x_768/public/2023-01/Yongren_Shi.jpg?h=97c132b8&itok=6sh8B4RH">
+                        <img src="https://sociology.uiowa.edu/sites/sociology.uiowa.edu/files/styles/square__768_x_768/public/2023-01/Yongren_Shi.jpg?h=97c132b8&itok=6sh8B4RH" style="margin:0; object-position: center; object-fit: contain; height: 96vh; width: 45vw">
+                    </a>
+                </section>
+            </section>
+            <!-- Subject -->
+
+            <!-- Subject -->
+            <section>
+                <section data-markdown>
                     ## Social Networks (Network Science)
 
                     - **Nodes**: the distinct element or actor
@@ -106,23 +139,78 @@
                         <img src="../pics/SOC1030Fa2024/SOC1030Fa24-C24-W12-24-11-14-Th/LargeClusteredNetworkWithSeperationMark.avif" style="margin:0; object-position: center; object-fit: contain; height: 96vh; width: 100vw">
                     </a>
                 </section>
+                <section data-markdown>
+                    ## Example Uses of Network Science
+
+                    - Those with a higher degree where more likely to get sick first (Christakis and Fowler 2010)
+                        - [Video of the spread of the Flu](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0012948#s5)
+                    - Academic publishing patterns (e.g. Biology publications have a much higher number of authors) [(Newman 2004)](https://www.pnas.org/doi/full/10.1073/pnas.0307545100)
+                    - The religiosity of the ties to the respondent impacts the depressive episodes of the respondent [(Upenieks 2020)](https://onlinelibrary.wiley.com/doi/10.1111/jssr.12668)
+                        - If the respondent is religious the more religious their ties the fewer depressive episodes they'll have
+                        - If the respondent isn't religious the more religious their ties the more depressive episodes they'll have
+                    - Quality of the ties in a network is tied to well being [(Offer 2020)](https://journals.sagepub.com/doi/10.1177/0022146520952767)
+                        - "Having a nondifficult partner is associated with lower loneliness compared to having no partner, but having no partner and having a difficult partner are related to similar levels of loneliness. Likewise, having difficult adult children and having no adult children are associated with reporting greater psychological distress than having nondifficult adult children."
+                </section>
             </section>
             <!-- Subject -->
 
             <!-- Subject -->
-            <!-- <section> -->
-                <!-- <section data-markdown> -->
-                    <!-- ##  -->
-                <!-- </section> -->
-            <!-- </section> -->
-            <!-- Subject -->
+            <section>
+                <section data-markdown>
+                    ## Is America Becoming More Polarized?
 
-            <!-- Subject -->
-            <!-- <section> -->
-                <!-- <section data-markdown> -->
-                    <!-- ##  -->
-                <!-- </section> -->
-            <!-- </section> -->
+                    - Discuss this question in your groups
+                    - If so then what is causing it?
+                    - If not then what is preventing polarization?
+                    - Who or what groups are polarizing more or less? Why or why not?
+                </section>
+                <section>
+                    <a href="https://x.com/elonmusk/status/1519735033950470144">
+                        <img src="../pics/SOC1030Fa2024/SOC1030Fa24-C25-W13-24-11-19-Tu/ElonLeftMovingWayLeftImage.avif" style="margin:0; object-position: center; object-fit: contain; height: 96vh; width: 100vw">
+                    </a>
+                </section>
+                <section data-markdown>
+                    <script type="text/template">
+                        The shift in the American public's political values (Pew Research)
+
+                        <a href="https://www.pewresearch.org/politics/interactives/political-polarization-1994-2017/">
+                            <img src="../pics/SOC1030Fa2024/SOC1030Fa24-C25-W13-24-11-19-Tu/PewShiftInIdology.avif" style="margin:0; object-position: center; object-fit: contain; height: 76vh; width: 100vw">
+                        </a>
+
+                        Based on this it looks like the left has moved more to the left than the right has moved to the right
+                    </script>
+                </section>
+                <section data-markdown>
+                    ## Asymmetric Polarization
+
+                    - Most of the reported hatred of people of the “other” party is directed at political elites not other voters
+                        - Source: Druckman, James N., and Matthew S. Levendusky. 2019. “What Do We Measure When We Measure Affective Polarization?” Public Opinion Quarterly 83(1):114–22. doi: 10.1093/poq/nfz003.
+                    - Using DW Nominate (political ideology based on votes made) data to show Republicans have gone farther to the right then Democrats to the left (pics on the next slide)
+                        - Source: Pew Research Center (March 10, 2022)
+                        - Similar Results: Hammond, Thomas H. 2003. “Veto Points, Policy Preferences, and Bureaucratic Autonomy in Democratic Systems.” Politics, Policy, and Organizations: Frontiers in the Scientific Study of Bureaucracy 73–103.
+                    - Some of this is due to the right being more monolithic/ideological whereas the democratic party is a collective of many different groups
+                        - Source: Grossmann, Matthew, and David A. Hopkins. 2016. Asymmetric Politics: Ideological Republicans and Group Interest Democrats. New York, NY: Oxford University Press.
+                </section>
+                <section data-markdown>
+                    <script type="text/template">
+                        The shift in the American politicians political values (Pew Research)
+
+                        <a href="https://www.pewresearch.org/short-reads/2022/03/10/the-polarization-in-todays-congress-has-roots-that-go-back-decades/">
+                            <img src="../pics/SOC1030Fa2024/SOC1030Fa24-C25-W13-24-11-19-Tu/PewDWNominateMovingToTheRight.avif" style="margin:0; object-position: center; object-fit: contain; height: 76vh; width: 100vw">
+                        </a>
+
+                        - Based on this the Republican Party has moved MUCH farther to the right
+                        - How much do political elites influence the electorate's political beliefs?
+                    </script>
+                </section>
+                <section>
+                    <a href="https://web.stanford.edu/~gentzkow/research/PolarizationIn2016.pdf">
+                        <img id="PartyIdentification" src="" style="margin:0; object-position: center; object-fit: contain; height: 76vh; width: 100vw">
+                    </a>
+                    <script>document.getElementById("PartyIdentification").src = pic_dir + "PartyIdentification.avif";</script>
+                    <p>More people no longer identify with either party (identify as independents) this means that there is growing dissatisfaction with both parties</p>
+                </section>
+            </section>
             <!-- Subject -->
 
             <!-- Subject -->
@@ -170,14 +258,14 @@
             <!-- Review -->
 
             <!-- Citations -->
-            <!-- <section> -->
-                <!-- <h2>References</h2> -->
-                <!-- <div align="left" class="hangingIndent"> -->
+            <section>
+                <h2>References</h2>
+                <div align="left" class="hangingIndent">
+                    <p>Christakis, Nicholas A., and James H. Fowler. 2010. “Social Network Sensors for Early Detection of Contagious Outbreaks.” PLOS ONE 5(9):e12948. doi: 10.1371/journal.pone.0012948.</p>
                     <!-- <p></p> -->
                     <!-- <p></p> -->
-                    <!-- <p></p> -->
-                <!-- </div> -->
-            <!-- </section> -->
+                </div>
+            </section>
             <!-- Citations -->
 
             <!-- Theme Slide -->
