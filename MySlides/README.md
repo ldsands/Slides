@@ -39,9 +39,9 @@
 # then you can use the following for the image
 <section>
     <a href="https://www.vox.com/future-perfect/22311356/china-uyghur-birthrate-sterilization-genocide">
-        <img id="TargetImg" src="" style="margin:0; object-position: center; object-fit: contain; height: 76vh; width: 100vw">
+        <img id="Uyghurs" src="" style="margin:0; object-position: center; object-fit: contain; height: 76vh; width: 100vw">
     </a>
-    <script>document.getElementById("TargetImg").src = pic_dir + "Uyghurs.avif";</script>
+    <script>document.getElementById("Uyghurs").src = pic_dir + "Uyghurs.avif";</script>
 </section>
 ```
 
@@ -51,6 +51,10 @@
 ```html
 <section>
     <iframe width="900" height="650" src="https://www.youtube.com/embed/5tc2X8xLGPI" frameborder="0" allowfullscreen></iframe>
+</section>
+# for the start and end time
+<section>
+    <iframe width="900" height="650" src="https://www.youtube.com/embed/5tc2X8xLGPI?start=0&end=144" frameborder="0" allowfullscreen></iframe>
 </section>
 ```
 
