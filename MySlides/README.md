@@ -45,6 +45,19 @@
 </section>
 ```
 
+- For putting an image into markdown only using markdown syntax
+
+```html
+<section data-markdown>
+    ![Uyghurs](../pics/SOC1030Fa2024/SOC1030Fa24-C02-W01-24-08-29-Th/Uyghurs.avif)
+</section>
+# for using with a link
+<section data-markdown>
+    [![Uyghurs](../pics/SOC1030Fa2024/SOC1030Fa24-C02-W01-24-08-29-Th/Uyghurs.avif)](https://www.vox.com/future-perfect/22311356/china-uyghur-birthrate-sterilization-genocide)
+</section>
+
+```
+
 - For putting a YouTube video into a slide
     - if you want to set a start and end time add this to the url `?start=0&end=144` must be in seconds
 
