@@ -9,7 +9,7 @@
 - [Week 03 - Done](https://ldsands.github.io/Slides/MySlides/SOC1030Sp25/SOC1030Sp25-W03-2025-02-05.html) - [pdf link](https://ldsands.github.io/Slides/MySlides/SOC1030Sp25/SOC1030Sp25-W03-2025-02-05.html?print-pdf)
 - [Week 04 - Done](https://ldsands.github.io/Slides/MySlides/SOC1030Sp25/SOC1030Sp25-W04-2025-02-12.html) - [pdf link](https://ldsands.github.io/Slides/MySlides/SOC1030Sp25/SOC1030Sp25-W04-2025-02-12.html?print-pdf)
 - [Week 05 - Done](https://ldsands.github.io/Slides/MySlides/SOC1030Sp25/SOC1030Sp25-W05-2025-02-19.html) - [pdf link](https://ldsands.github.io/Slides/MySlides/SOC1030Sp25/SOC1030Sp25-W05-2025-02-19.html?print-pdf)
-- [Week 06](https://ldsands.github.io/Slides/MySlides/SOC1030Sp25/SOC1030Sp25-W06-2025-02-26.html) - [pdf link](https://ldsands.github.io/Slides/MySlides/SOC1030Sp25/SOC1030Sp25-W06-2025-02-26.html?print-pdf)
+- [Week 06 - Done](https://ldsands.github.io/Slides/MySlides/SOC1030Sp25/SOC1030Sp25-W06-2025-02-26.html) - [pdf link](https://ldsands.github.io/Slides/MySlides/SOC1030Sp25/SOC1030Sp25-W06-2025-02-26.html?print-pdf)
 - [Week 07](https://ldsands.github.io/Slides/MySlides/SOC1030Sp25/SOC1030Sp25-W07-2025-03-05.html) - [pdf link](https://ldsands.github.io/Slides/MySlides/SOC1030Sp25/SOC1030Sp25-W07-2025-03-05.html?print-pdf)
 - [Week 08](https://ldsands.github.io/Slides/MySlides/SOC1030Sp25/SOC1030Sp25-W08-2025-03-12.html) - [pdf link](https://ldsands.github.io/Slides/MySlides/SOC1030Sp25/SOC1030Sp25-W08-2025-03-12.html?print-pdf)
 - [Week 09](https://ldsands.github.io/Slides/MySlides/SOC1030Sp25/SOC1030Sp25-W09-2025-03-19.html) - [pdf link](https://ldsands.github.io/Slides/MySlides/SOC1030Sp25/SOC1030Sp25-W09-2025-03-19.html?print-pdf)
